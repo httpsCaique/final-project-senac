@@ -36,6 +36,21 @@ body{
 }
   
 
+.carousel {
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+
 .container{
   display: flex;
   justify-content: center;
