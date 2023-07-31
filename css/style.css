@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+
+  }
+  
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    background-color:rgb(133, 252, 127);
+    font-size: 2rem;
+    font-family: titulo;
+   
+  }
+  
+
+.cabeçalho{
+  display: inline;
+
+}
+
+.cabeçalho, a{
+  text-decoration: none;
+  color: black;
+  margin-left:2rem;
+  margin-right:2rem;
+
+}
+
+
+.cabeçalho, a:hover{
+  text-decoration: none;
+  color: rgb(247, 243, 243);
+}
+  
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.digitasolo{
+  margin-bottom: 5rem;
+}
+
+
+.princ{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.conteudo{
+  width: 50rem;
+  height: 30rem;
+  background-color: rgb(255, 255, 255);
+  margin: 2rem;
+  border: 1px rgb(0, 0, 0) solid;
+}
+
+
+footer{
+
+  height: 8rem;
+  background-color:rgb(133, 252, 127);
+
+}
+
