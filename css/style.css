@@ -36,6 +36,9 @@ body{
 }
   
 
+
+/*carrousel*/
+
 .carousel {
   overflow: hidden;
 }
@@ -43,12 +46,26 @@ body{
 .slides {
   display: flex;
   transition: transform 0.3s ease;
+ 
 }
 
 .slides img {
-  width: 100%;
-  height: auto;
+  height: 50px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 30px ;
+  margin-right: 2rem;
 }
+
+.u-text-placeholder{
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+
+
+
 
 
 .container{
@@ -92,4 +109,14 @@ footer{
   background-color:rgb(133, 252, 127);
 
 }
+
+
+.usd, .canada, .russia, .japao, .india, .china, .reino-unido, .uniao, .hk{
+  display:flex;
+  flex-direction: column;
+  margin-right: 9px;
+  
+}  
+
+
 

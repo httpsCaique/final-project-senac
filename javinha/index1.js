@@ -21,6 +21,10 @@ function nextSlide() {
 
 setInterval(nextSlide, 2000); // Intervalo de 2 segundos (2000ms) entre os slides
 
+// Mostrar o primeiro slide no início
+showSlide(slideIndex);
+
+
 
 
 
