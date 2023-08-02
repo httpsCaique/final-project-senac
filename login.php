@@ -47,12 +47,12 @@
 <body>
 
 
-<video autoplay loop muted >
+<video autoplay loop muted style="-webkit-filter: blur(5px);" >
     <source src="./video/backvideo.mp4" type="video/mp4">
   </video >
 
 
-    <form action="login.php" method="post" class="log">
+    <form action="login.php" method="post" class="log" >
         <h1>LOGIN DE USUARIO</h1>
         <input type="text" name="nome" placeholder="NOME" required>
         <p></p>
@@ -64,7 +64,7 @@
 <div class="log"  >
     <h1 >Não tem Cadastro?</h1>
     <p>Faça seu Cadastro Aqui!</p>
-    <button  class="button-54" role="button">CADASTRE</button>
+    <button  class="button-54" role="button"><a href="cadastrausuario.php">CADASTRE</a></button>
 </div>
 
 </body>
