@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    font-family: principal;
+    font-family:principal;
   }
   
   nav{
@@ -9,9 +9,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 8rem;
-    background-color:rgb(133, 252, 127);
+    background-color:rgb(236, 198, 92);
     font-size: 2rem;
-    font-family: principal;
+
    
   }
   
@@ -31,9 +31,9 @@ body{
   color: black;
   margin-left:2rem;
   margin-right:2rem;
-  font-family: principal;
+  font-family: Bungee;
   font-size: 50px;
-  font-family: principal;
+
 
 }
 
@@ -76,6 +76,7 @@ body{
 
 .txt{
   font-size: 25px;
+  font-size: Bungee;
   
 }
 
@@ -106,7 +107,7 @@ body{
 
 
 .imagem00{
-  height: 20px; width: 20px;
+  height: 200px; width: 200px;
 }
 
 
@@ -122,7 +123,7 @@ body{
 footer{
 
   height: 8rem;
-  background-color:rgb(133, 252, 127);
+  background-color:rgb(236, 198, 92);
 
 }
 
@@ -146,23 +147,27 @@ footer{
 
 @font-face{
   font-family: principal;
-  src: url(/font/Super\ Funtime.ttf);
+  src: url(/final-project-senac/font/Shrikhand-Regular.ttf);
   
 }
 
+.btn1, a{
+  font-family: principal;
+}
+.btn1, a:hover{
+  color: rgb(236, 198, 92);
+}
 
 .button-54 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 2px;
+
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
   cursor: pointer;
   border: 3px solid;
-  padding: 0.25em 0.5em;
+  font-family: principal;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-  position: relative;
+
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -174,7 +179,7 @@ footer{
  
 .texto{
   font-family: principal;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .ajuste{
@@ -185,13 +190,13 @@ footer{
   margin: 20px;
 }
 .btn{
-  margin-top: 50px;
-  margin-left: 27%;
+  margin-top: 20px;
+  margin-left: 23%;
 }
 
 .btn1{
-  margin-top: 120px;
-  margin-left: 27%;
+  margin-top: 105px;
+  margin-left: 25%;
 }
 
 .button-54:active {
