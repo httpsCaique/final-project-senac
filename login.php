@@ -47,7 +47,7 @@
 <body>
 
 
-<video autoplay loop muted style="-webkit-filter: blur(7px);" >
+<video autoplay loop muted >
     <source src="./video/backvideo.mp4" type="video/mp4">
   </video >
 
@@ -64,7 +64,7 @@
 <div class="log"  >
     <h1 >Não tem Cadastro?</h1>
     <p>Faça seu Cadastro Aqui!</p>
-    <button  class="button-54" role="button" href="">CADASTRE</button>
+    <button  class="button-54" role="button">CADASTRE</button>
 </div>
 
 </body>
