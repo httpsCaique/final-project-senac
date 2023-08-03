@@ -8,9 +8,9 @@
     //LOCALIZA O PC OU SERVIDOR COM O BANCO (NOME DO COMPUTADOR)
     $servidor = "localhost:3307";
     //NOME DO BANCO
-    $banco = "projeto22";
+    $banco = "mestredasmoedas";
     //USUARIO DE ACESSO
-    $usuario = "administrador";
+    $usuario = "admin";
     //SENHA DO USUARIO
     $senha = "123";
 
