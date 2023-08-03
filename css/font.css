@@ -1,0 +1,10 @@
+@font-face{
+    font-family:tn;
+    src: url(/final-project-senac/font/Shrikhand-Regular.ttf);
+            
+}
+
+body, a, h1, h2, h3, h4, p, button{
+font-family: tn;
+color: black;
+}
