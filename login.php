@@ -39,9 +39,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/tuim.css">
+    
     <title>LOGIN USUARIO</title>
 </head>
-<body>
+<body >
 
 
 <video autoplay loop muted style="-webkit-filter: blur(5px);" >
@@ -49,25 +50,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </video >
 
 <div >
-    <form action="login.php" method="post" class="log"  style="filter:drop-shadow(5px -5px 0px #000000);">
-        <h1 >LOGIN DE USUARIO</h1>
+    <form action="login.php" method="post" class="log" style="filter:drop-shadow(5px -5px 0px #000000);" >
+        <h1 >LOGIN </h1>
         <input type="text" name="nome" placeholder="NOME" required>
         <p></p>
         <input type="password" name="senha" placeholder="SENHA" required>
         <p></p>
         <button  class="button-54"  role="button" type="submit" name="login" value="LOGIN"><a>LOGIN</a></button>
+        
     </form>
 </div>
-     
 
- 
     <div class="log" style="filter:drop-shadow(5px -5px 0px #000000);" >
     <h1 >Não tem Cadastro?</h1>
     <p>Faça seu Cadastro Aqui!</p>
     <button  class="button-54" role="button"><a href="cadastrausuario.php" style="display: block; text-decoration: none;">CADASTRE-SE</a></button>
      </div>
- 
-
 
 </body>
 </html>

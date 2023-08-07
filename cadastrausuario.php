@@ -20,11 +20,12 @@ $cont = $tbl[0];
 
 ##VALIDAÇÃO DE TRUE E FALSE
 
-
-if($cont == 1){
-    echo"<script>window.alert('CLIENTE JÁ EXISTE');</script>";
-}
-else{
+if (empty($cpf) || empty($nome) || empty($senha)) {
+    echo "<script>window.alert('Por favor, preencha todos os campos.');</script>";
+} else if($cont == 1) {
+      echo"<script>window.alert('CLIENTE JÁ EXISTE');</script>";
+    }
+    else{
     $sql = "INSERT INTO usuario (cpf, nome, senha)
     VALUES('$cpf','$nome','$senha')";
     mysqli_query($link, $sql);
@@ -32,6 +33,8 @@ else{
     echo"<script>window.alert('CLIENTE CADASTRADO');</script>";
     echo"<script>window.location.href='login.php';</script>";
 }
+ 
+
 }
 
 ?>

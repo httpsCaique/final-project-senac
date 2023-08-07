@@ -2,11 +2,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden; /* Para garantir que o vídeo cubra toda a tela */
-    
   }
 
- 
-  
   video {
     position: fixed;
     top: 0;
@@ -15,25 +12,8 @@ body {
     height: 100%;
     object-fit: cover; /* Ajusta o vídeo para preencher todo o contêiner */
     z-index: -1; /* Coloca o vídeo em camadas atrás de outros elementos */ 
-  }
+        }
   
-  
-  
-  .conteudo {
-    /* Estilo do conteúdo que estará acima do vídeo */
-    position: relative;
-    z-index: 1; /* Garante que o conteúdo fique acima do vídeo */
-    padding: 20px;
-    color: #ffffff; /* Ajuste a cor do texto conforme necessário */
-  }
-  
-    .menu {
-      list-style-type: none; /* Remove os marcadores de lista */
-      margin: 0;
-      padding: 0;
-      background-color: hwb(0 95% 5%); /* Define a cor de fundo do menu */
-      border-radius: 10px;
-    }
     
     .button-54 {
       font-family: principal;
@@ -53,12 +33,12 @@ body {
     }
     
     .log{
-        background-color:rgb(236, 198, 92);
+      background-color:rgb(236, 198, 92);
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      margin: 100px auto;
+      margin: 140px auto;
       padding: 20px;
-      width: 300px;
+      width: 316px;
       text-align: center;
         }
     
@@ -89,31 +69,6 @@ body {
       }
     }
   
-    .menu li {
-      display: inline-block; /* Faz com que os itens de menu fiquem um ao lado do outro */
-    }
-    
-    .menu li a {
-      display: block; /* Define os links como elementos de bloco para ocuparem todo o espaço horizontal disponível */
-      padding: 8px 16px; /* Adiciona espaçamento interno aos links */
-      text-decoration: none; /* Remove a decoração de texto padrão (sublinhado) */
-      color: #333; /* Define a cor do texto dos links */
-    }
-    
-    .menu li a:hover {
-      background-color: #550469; /* Define a cor de fundo ao passar o mouse sobre os links */
-      color: #ffffff; /* Define a cor do texto ao passar o mouse sobre os links */
-      border-radius: 10px;
-    }
-    
-    .menuloja{
-      float:right;
-    }
-    
-   
-  
-    
-  
     /* DIV DO FORMULÁRIO */
     .formulario{
       float: left;
@@ -130,10 +85,8 @@ body {
         background-color:rgb(236, 198, 92);
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      margin: 20px auto;
-      padding: 30px;
-      width: 300px;
-     
+      margin: 30px auto;
+      padding: 20px;
     }
 
 
@@ -145,7 +98,7 @@ body {
     }
     
     input{
-      background-color: rgb(205, 191, 211);
+      background-color: rgb(179, 145, 145);
       border-radius: 3px;
     
     }
@@ -168,54 +121,4 @@ body {
         width: 100%;
         resize: none;
         
-      }
-    
-    /* ESTILO DAS TABELAS*/
-    
-    table {
-      border-collapse: collapse;
-      text-align: center;
-      color: #eee;
-      text-decoration: #bbb0be;
-      width: 75%;
-      margin:auto;
-    }
-    h2{
-    
-      color: #000000;
-    }
-    h1{
-        
-      color: #000000;
-    }
-    p{
-    
-      color: #000000;
-    }
-    
-    .caixaexclui{
-      width: 300px;
-      height: 300px;
-      float: center;
-    }
-    
-    /* IMAGEM DO ALTERA PRODUTO */
-    .imagem_atual{
-      float: right;
-      position: relative;
-      margin-top: 1.5%;
-      margin-right: 5%;
-      width: 40%;
-      height: 40%;
-      border-radius: 10px;
-    }
-    /* FORM DO ALTERA PRODUTO */
-    .visualizaproduto{
-        background-color: rgb(205, 191, 211);
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        margin: 20px auto;
-        margin-left: 10px;
-        padding: 20px;
-        width: 500px;
       }
