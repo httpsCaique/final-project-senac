@@ -226,7 +226,7 @@ footer{
 }
 
 
-.formulario{
+.articlee{
   background-color:rgb(236, 198, 92);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -239,10 +239,8 @@ footer{
 
  }
 
- label{
- 
- }
-input{
+
+.princ2{
   border: 5px black solid;
   margin: 20px;
   height: 50px;
@@ -254,6 +252,20 @@ input{
   font-size: 40px;
 }
 
+
+.princ3{
+  font-size: 3rem;
+}
+
 #salario{
   font-size: 20px;
+}
+
+.calcprincipal{
+ 
+  border: 5px solid black;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+margin-left:380px ;
 }

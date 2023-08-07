@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
+    <!-- <script src="javinha/inpute.js"></script> -->
   
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carrousel.css">
-    <title>Document</title>
+
+    <title>salario</title>
 </head>
 <body>
 
@@ -118,19 +120,28 @@
                 </div>
             </div>
 
-                <form action="salario.php" method="post" class="formulario">
-                <label for=""> <p class="ty"> Coloque seu salario aqui <input type="number" name="salario" id="salario" placeholder="SALARIO" focus required ></label>
+                <article class="articlee">
+                <p class="ty"> <p class="princ3"> Coloque seu salario aqui <input type="number" name="salario" id="salario" placeholder="SALARIO" focus required ></p>
                 <br>
-                <button class="button-54" role="button"> <a href="" target="_blank">Calcular</a></button>
                 <br>
-                <label for=""> <p class="ty">50% Gastos essenciais </p><input type="number" id="n50"  readonly></label>
+                <button class="button-54" id="button01" onclick="" role="button">Calcular</button>
                 <br>
-                <label for=""> <p class="ty">30% Gastos variaveis   </p> <input type="number"  id="n30"  readonly></label>
-                <br>
-                <label for=""> <p class="ty">20% Gastos essenciais </p><input type="number"  id="n20" " readonly></label>
-
                 
-            </form>
+                <br>
+                <p class="princ3"> 50% Gastos essenciais </p>
+                <br>
+                <p class="calcprincipal"></p>
+                <br>
+                <p class="princ3"> 30% Gastos variaveis </p>
+                <br>
+                <p class="calcprincipal"></p>
+                <br>
+                <p class="princ3"> 20% Gastos essenciais </p>
+                <p class="calcprincipal"></p>
+                <br>
+                
+                
+         
 
             
         </main>
@@ -144,3 +155,6 @@
         </footer>
 </body>
 </html>
+
+
+
