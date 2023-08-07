@@ -11,6 +11,8 @@ body{
     height: 8rem;
     background-color:rgb(236, 198, 92);
     font-size: 2rem;
+    border-bottom: 5px black solid;
+    border-top: 5px black solid;
 
    
   }
@@ -49,11 +51,13 @@ body{
 
 .carousel {
   overflow: hidden;
+  border-bottom: 5px black solid;
 }
 
 .slides {
   display: flex;
   transition: transform 0.3s ease;
+  
  
 }
 
@@ -64,11 +68,13 @@ body{
   margin-top: 20px;
   margin-left: 30px ;
   margin-right: 2rem;
+ 
 }
 
 .u-text-placeholder{
   font-size: 15px;
   margin-left: 20px;
+
 }
 
 
@@ -76,7 +82,10 @@ body{
 
 .txt{
   font-size: 25px;
-  font-size: Bungee;
+  border: 5px black solid;
+  padding: 20px;
+  border-radius: 10px;
+
   
 }
 
@@ -116,7 +125,8 @@ body{
   height: 30rem;
   background-color: rgb(255, 255, 255);
   margin: 2rem;
-  border: 1px rgb(0, 0, 0) solid;
+  border: 5px black solid;
+  border-radius: 10px;
 }
 
 
@@ -124,6 +134,8 @@ footer{
 
   height: 8rem;
   background-color:rgb(236, 198, 92);
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
 
 }
 
@@ -211,4 +223,37 @@ footer{
   .button-54 {
     padding: 0.25em 0.75em;
   }
+}
+
+
+.formulario{
+  background-color:rgb(236, 198, 92);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  padding: 100px;
+  width: 1000px;
+  text-align: center;
+  border: 5px black solid;
+  height: 1000px;
+
+ }
+
+ label{
+ 
+ }
+input{
+  border: 5px black solid;
+  margin: 20px;
+  height: 50px;
+  background-color: rgb(199, 197, 197);
+ 
+}
+
+.ty{
+  font-size: 40px;
+}
+
+#salario{
+  font-size: 20px;
 }
