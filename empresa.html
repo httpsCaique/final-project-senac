@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
-  
-    <link rel="stylesheet" href="css/style.css">
+    <script src="javinha/empres.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <title>Document</title>
 </head>
@@ -36,7 +38,7 @@
             
 
 
-        <div class="canada slide"">
+        <div class="canada slide">
           <img  src="img/Flag_of_Canada_(Pantone).svg.png" alt="bandeira canada">
           
             <span class="u-text-placeholder currency_cad" ">1 CAD = 3.58 BRL</span>
@@ -121,31 +123,27 @@
             </div>
     
             <article class="articlee">
-                <p class="ty"> <p class="princ3"> Coloque seu salario aqui <input type="number" name="salario" id="salario" class="format" placeholder="SALARIO" focus required ></p>
-                <br>
-                <br>
-                <button class="button-54" id="button01" onclick="calcsalario()"role="button">Calcular</button>
-                <br>
-                <br>
-                <br>
-                <br>
-                <button class="button-54" id="button01" onclick="limparCampos()"role="button">Limpar</button>
+                <p class="ty"> <p class="princ3"> Lucro bruto <input type="number" name="emp1" id="emp1" class="format" placeholder="Calc" focus required ></p>
+            
+                <p class="ty"> <p class="princ3">Gasto com Funcionarios <input type="number" name="emp2" id="emp2" class="format" placeholder="Calc" focus required ></p>
                 
-                <br>
-                <p class="princ3"> 50% Gastos essenciais </p>
-                <br>
-                <p class="calcprincipal">  <span id="n50" ></span>   </p>
-                <br>
-                <p class="princ3"> 30% Gastos variaveis </p>
-                <br>
-                <p class="calcprincipal"><span id="n30" ></span>  </p>
-                <br>
-                <p class="princ3"> 20% Gastos essenciais </p>
-                <p class="calcprincipal"><span id="n20" ></span>  </p>
-                <br>
+                <p class="ty"> <p class="princ3">Materia-prima e Insumos <input type="number" name="emp3" id="emp3" class="format" placeholder="Calc" focus required ></p>
                 
-
+                <p class="ty"> <p class="princ3">Gastos Operacionais <input type="number" name="emp4" id="emp4" class="format" placeholder="Calc" focus required ></p>
+                
+                <p class="ty"> <p class="princ3">Gasto com Imposto <input type="number" name="emp5" id="emp5" class="format" placeholder="Calc" focus required ></p>
+                <br>
+                <button class="button-54" id="button01" onclick="calcempresa()" onclick="gerarGrafico()"  role="button" style="margin-right: 6rem;"><a >Calcular</a></button>
+                <button class="button-54" id="button01" onclick="limpartudo()"role="button"><a>&nbsp;Limpar&nbsp;</a></button>
+                <br>
+                <p class="princ3">Gasto Total </p>
+                <p class="calcprincipal">  <span id="gasto" ></span>   </p>
+                <br>
+                <p class="princ3">Lucro Líquido</p>
+                <p class="calcprincipal"><span id="lucro" ></span>  </p>
+                </article>
         </main>
+
         <div class="graficostilo">
         <canvas id="grafico"></canvas>
     </div>
