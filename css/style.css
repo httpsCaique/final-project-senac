@@ -28,7 +28,13 @@ span{
 }
 
 .format{
+ 
   border: 5px black solid;
+  border-radius: 0.4rem;
+  top: -5px;
+  position: relative;
+  
+  
 }
 
 .central{
@@ -167,7 +173,7 @@ footer{
 
 @font-face{
   font-family: principal;
-  src: url(/final-project-senac/font/Shrikhand-Regular.ttf);
+  src: url(../font/Shrikhand-Regular.ttf);
   
 }
 
@@ -239,21 +245,25 @@ footer{
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin: 50px auto;
+  margin-top: 15rem;
   padding: 100px;
   width: 1000px;
   text-align: center;
   border: 5px black solid;
-  height: 1000px;
+  height: 1250px;
 
  }
 
  .graficostilo{
   padding: 100px;
   width: 1000px;
+  height: 1000px;
   margin-left:17rem;
  }
 
-
+.n50, .n20, .n30{
+  margin-bottom: 20px;
+}
 
 .princ2{
   border: 5px black solid;
@@ -269,18 +279,23 @@ footer{
 
 
 .princ3{
-  font-size: 3rem;
+  font-size: 2.5rem;
+
+
+
 }
+
 
 #salario{
   font-size: 20px;
+
 }
 
 .calcprincipal{
  
   border: 5px solid black;
   width: 200px;
-  height: 50px;
+  height: 60px;
   background-color: transparent;
-margin-left:380px ;
+  margin-left:380px;
 }
