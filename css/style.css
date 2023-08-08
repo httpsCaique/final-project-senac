@@ -23,6 +23,14 @@ body{
 
 }
 
+span{
+  font-size: 50px;
+}
+
+.format{
+  border: 5px black solid;
+}
+
 .central{
   font-family: principal;
 
@@ -238,6 +246,13 @@ footer{
   height: 1000px;
 
  }
+
+ .graficostilo{
+  padding: 100px;
+  width: 1000px;
+  margin-left:17rem;
+ }
+
 
 
 .princ2{

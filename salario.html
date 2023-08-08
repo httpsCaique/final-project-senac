@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
-    <!-- <script src="javinha/inpute.js"></script> -->
+    <script src="javinha/inpute.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
   
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carrousel.css">
@@ -121,37 +123,35 @@
             </div>
 
                 <article class="articlee">
-                <p class="ty"> <p class="princ3"> Coloque seu salario aqui <input type="number" name="salario" id="salario" placeholder="SALARIO" focus required ></p>
+                <p class="ty"> <p class="princ3"> Coloque seu salario aqui <input type="number" name="salario" id="salario" class="format" placeholder="SALARIO" focus required ></p>
                 <br>
                 <br>
-                <button class="button-54" id="button01" onclick="" role="button">Calcular</button>
+                <button class="button-54" id="button01" onclick="calcsalario()"role="button">Calcular</button>
                 <br>
+                <br>
+                <br>
+                <br>
+                <button class="button-54" id="button01" onclick="limparCampos()"role="button">Limpar</button>
                 
                 <br>
                 <p class="princ3"> 50% Gastos essenciais </p>
                 <br>
-                <p class="calcprincipal"></p>
+                <p class="calcprincipal">  <span id="n50" ></span>   </p>
                 <br>
                 <p class="princ3"> 30% Gastos variaveis </p>
                 <br>
-                <p class="calcprincipal"></p>
+                <p class="calcprincipal"><span id="n30" ></span>  </p>
                 <br>
                 <p class="princ3"> 20% Gastos essenciais </p>
-                <p class="calcprincipal"></p>
+                <p class="calcprincipal"><span id="n20" ></span>  </p>
                 <br>
                 
-                
-         
 
-            
         </main>
-
+        <div class="graficostilo">
+        <canvas id="grafico"></canvas>
+    </div>
         <footer>
-
-            
-
-
-
         </footer>
 </body>
 </html>

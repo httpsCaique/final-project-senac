@@ -120,24 +120,35 @@
     
             </div>
     
-            <form action="salario.php" method="post" class="formulario">
-                <label for=""> <p class="ty">Coloque o Lucro Total da empresa <input type="number" name="Total" id="total" focus required ></label>
+            <article class="articlee">
+                <p class="ty"> <p class="princ3"> Coloque seu salario aqui <input type="number" name="salario" id="salario" class="format" placeholder="SALARIO" focus required ></p>
                 <br>
-                <label for=""> <p class="ty">Gastos com Despesas<input type="number" id="total"></label>
                 <br>
-                <label for=""> <p class="ty">Gastos com Funcinarios <input type="number" id="total"></label>
+                <button class="button-54" id="button01" onclick="calcsalario()"role="button">Calcular</button>
                 <br>
-                <label for=""> <p class="ty">Gastos com Produtos    <input type="number" id="total"></label>
                 <br>
-                <button class="button-54" role="button"> <a href="" target="_blank">Calcular</a></button>
                 <br>
-                <label for=""> <p class="ty">Lucro da empresa</p><input type="number" id="n1"  readonly></label>
                 <br>
-
-    
-            </form>
+                <button class="button-54" id="button01" onclick="limparCampos()"role="button">Limpar</button>
+                
+                <br>
+                <p class="princ3"> 50% Gastos essenciais </p>
+                <br>
+                <p class="calcprincipal">  <span id="n50" ></span>   </p>
+                <br>
+                <p class="princ3"> 30% Gastos variaveis </p>
+                <br>
+                <p class="calcprincipal"><span id="n30" ></span>  </p>
+                <br>
+                <p class="princ3"> 20% Gastos essenciais </p>
+                <p class="calcprincipal"><span id="n20" ></span>  </p>
+                <br>
+                
 
         </main>
+        <div class="graficostilo">
+        <canvas id="grafico"></canvas>
+    </div>
 
         <footer>
 
