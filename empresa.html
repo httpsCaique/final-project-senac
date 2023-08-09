@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
+    <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
@@ -124,28 +125,38 @@
             </div>
     
             <article class="articlee">
-                <p class="ty"> <p class="princ3"> Lucro bruto <input type="number" name="emp1" id="emp1" class="format" placeholder="Calc" focus required ></p>
+                <p class="ty"> <p class="princ3"> Lucro bruto: <input type="number" name="emp1" id="emp1" class="format" placeholder="Calc" focus required ></p>
             
-                <p class="ty"> <p class="princ3">Gasto com Funcionarios <input type="number" name="emp2" id="emp2" class="format" placeholder="Calc" focus required ></p>
+                <p class="ty"> <p class="princ3">Materia-prima e Insumos: <input type="number" name="emp2" id="emp2" class="format" placeholder="Calc" focus required ></p>
                 
-                <p class="ty"> <p class="princ3">Materia-prima e Insumos <input type="number" name="emp3" id="emp3" class="format" placeholder="Calc" focus required ></p>
+                <p class="ty"> <p class="princ3">Despesas Operacionais: <input type="number" name="emp3" id="emp3" class="format" placeholder="Calc" focus required ></p>
                 
-                <p class="ty"> <p class="princ3">Gastos Operacionais <input type="number" name="emp4" id="emp4" class="format" placeholder="Calc" focus required ></p>
+                <p class="ty"> <p class="princ3">Marketing e Publicidade: <input type="number" name="emp4" id="emp4" class="format" placeholder="Calc" focus required ></p>
                 
-                <p class="ty"> <p class="princ3">Gasto com Imposto <input type="number" name="emp5" id="emp5" class="format" placeholder="Calc" focus required ></p>
+                <p class="ty"> <p class="princ3">Desenvolvimento e Pesquisa: <input type="number" name="emp5" id="emp5" class="format" placeholder="Calc" focus required ></p>
+
+                <p class="ty"> <p class="princ3">Impostos e Taxas: <input type="number" name="emp6" id="emp6" class="format" placeholder="Calc" focus required ></p>
+
+                <p class="ty"> <p class="princ3">Logística e Distribuição: <input type="number" name="emp7" id="emp7" class="format" placeholder="Calc" focus required ></p>
+
+                <p class="ty"> <p class="princ3">Seguros: <input type="number" name="emp8" id="emp8" class="format" placeholder="Calc" focus required ></p>
                 <br>
                 <button class="button-54" id="button01" onclick="calcempresa()" role="button" style="margin-right: 6rem;"><a >Calcular</a></button>
                 <button class="button-54" id="button01" onclick="limpartudo()"role="button"><a>&nbsp;Limpar&nbsp;</a></button>
                 <br>
                 <p class="princ3">Gasto Total </p>
-                <p class="calcprincipal">  <span id="gasto" ></span>   </p>
-                <br>
+                <p class="calcprincipal">  <span id="gasto"  ></span>   </p>
+                
                 <p class="princ3">Lucro Líquido</p>
-                <p class="calcprincipal"><span id="lucro" ></span>  </p>
+                <p class="calcprincipal"><span id="lucro"  ></span>  </p>
                 </article>
         </main>
 
-        <canvas id="myChart"></canvas>
+
+        <div class="king">
+             <canvas id="myChart"></canvas>
+        </div>
+       
 
         <footer>
 
