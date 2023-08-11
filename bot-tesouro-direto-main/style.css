@@ -1,0 +1,350 @@
+.bold-text {
+  font-weight: bold;
+}
+
+#data-atualizacao {
+  font-weight: bold;
+}
+
+
+
+.janela-boa {
+  color: blue;
+}
+
+.janela-ruim {
+  color: orange;
+}
+
+.janela-pessima {
+  color: red;
+}
+
+.input-group {
+  max-width: 520px; 
+  padding-left: 16px;
+}
+
+
+body{
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  font-family:principal;
+}
+
+nav, .container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  background-color:rgb(236, 198, 92);
+  font-size: 2rem;
+  border-bottom: 5px black solid;
+  border-top: 5px black solid;
+  text-decoration: none;
+
+ 
+}
+
+
+.cabeçalho{
+display: flex;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 8rem;
+background-color:rgb(236, 198, 92);
+font-size: 2rem;
+border-bottom: 5px black solid;
+border-top: 5px black solid;
+
+}
+
+span{
+font-size: 50px;
+}
+
+.format{
+
+border: 5px black solid;
+border-radius: 0.4rem;
+top: -5px;
+position: relative;
+
+
+}
+
+.central{
+font-family: principal;
+
+}
+
+.cabeçalho, a{
+text-decoration: none;
+color: black;
+margin-left:2rem;
+margin-right:2rem;
+font-family: Bungee;
+font-size: 50px;
+
+
+}
+
+
+.cabeçalho a:hover{
+text-decoration: none;
+color: rgb(247, 243, 243);
+}
+
+
+
+/*carrousel*/
+
+.carousel {
+overflow: hidden;
+border-bottom: 5px black solid;
+}
+
+.slides {
+display: flex;
+transition: transform 0.3s ease;
+
+
+}
+
+.slides img {
+height: 50px;
+width: 100px;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 30px ;
+margin-right: 2rem;
+
+}
+
+.u-text-placeholder{
+font-size: 15px;
+margin-left: 20px;
+
+}
+
+
+
+
+.txt{
+font-size: 25px;
+border: 5px black solid;
+padding: 20px;
+border-radius: 10px;
+
+
+}
+
+
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+.principal{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.digitasolo{
+margin-bottom: 5rem;
+}
+
+
+.princ{
+display: flex;
+justify-content: center;
+}
+
+
+.imagem00{
+height: 200px; width: 200px;
+}
+
+
+.conteudo{
+width: 50rem;
+height: 30rem;
+background-color: rgb(255, 255, 255);
+margin: 2rem;
+border: 5px black solid;
+border-radius: 10px;
+}
+
+
+footer{
+
+height: 8rem;
+background-color:rgb(236, 198, 92);
+border-top: 5px black solid;
+border-bottom: 5px black solid;
+
+}
+
+.contaner-aux{
+margin-top: 15rem;
+margin-bottom: 10rem;
+}
+
+
+.usd, .canada, .russia, .japao, .india, .china, .reino-unido, .uniao, .hk{
+display:flex;
+flex-direction: column;
+margin-right: 9px;
+
+}  
+
+
+
+
+
+
+@font-face{
+font-family: principal;
+src: url(../font/Shrikhand-Regular.ttf);
+
+}
+
+.btn1, a{
+font-family: principal;
+}
+.btn1, a:hover{
+color: rgb(236, 198, 92);
+}
+
+.button-54 {
+
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+cursor: pointer;
+border: 3px solid;
+font-family: principal;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+}
+
+
+
+
+.texto{
+font-family: principal;
+font-size: 20px;
+}
+
+.ajuste{
+margin-left: 40%;
+font-family: principal;
+}
+.ajuste1{
+margin: 20px;
+}
+.btn{
+margin-top: 20px;
+margin-left: 23%;
+}
+
+.btn1{
+margin-top: 105px;
+margin-left: 25%;
+}
+
+.button-54:active {
+box-shadow: 0px 0px 0px 0px;
+top: 5px;
+left: 5px;
+}
+
+
+
+@media (min-width: 768px) {
+.button-54 {
+  padding: 0.25em 0.75em;
+}
+}
+
+
+.articlee{
+background-color:rgb(236, 198, 92);
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+margin: 50px auto;
+margin-top: 15rem;
+padding: 100px;
+width: 1000px;
+text-align: center;
+border: 5px black solid;
+height: 1250px;
+
+}
+
+.graficostilo{
+padding: 100px;
+width: 1000px;
+height: 1000px;
+margin-left:17rem;
+}
+
+.n50, .n20, .n30{
+margin-bottom: 20px;
+}
+
+.princ2{
+border: 5px black solid;
+margin: 20px;
+height: 50px;
+background-color: rgb(199, 197, 197);
+
+}
+
+.ty{
+font-size: 40px;
+}
+
+
+.princ3{
+font-size: 2.5rem;
+
+
+
+}
+
+
+#salario{
+font-size: 20px;
+
+}
+
+.calcprincipal{
+
+border: 5px solid black;
+width: 200px;
+height: 60px;
+background-color: transparent;
+margin-left:380px;
+}
+
+.controle{
+  background-color: bisque;
+  font-size: 15px;
+  
+
+}
+
+
+.text-bg-warning{
+  
+}
