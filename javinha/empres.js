@@ -63,4 +63,23 @@ function calcempresa() {
   
   
   
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.querySelector(".to-top").classList.add("show");
+    } else {
+      document.querySelector(".to-top").classList.remove("show");
+    }
+  }
   
+  function scrollToTop() {
+    const scrollToTop = window.setInterval(function() {
+      const pos = window.pageYOffset;
+      if (pos > 0) {
+        window.scrollTo(0, pos - 20); // Ajuste o valor para controlar a velocidade da rolagem
+      } else {
+        window.clearInterval(scrollToTop);
+      }
+    }, 10); // Ajuste o intervalo para controlar a suavidade da rolagem
+  }
