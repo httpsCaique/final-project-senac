@@ -1,3 +1,13 @@
+<?php
+    
+
+
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,21 +27,22 @@
 </head>
 <body>
 
-    <header>
+<header>
 
-        <nav>
-            <a href="principal.html"><img class="imagem00" src=""></a>
+<nav>
+    <a href="principal.HTM"><img class="imagem00" src=""></a>
 
-            <div class="cabeçalho">
+    <div class="cabeçalho">
 
 
-                <a href="salario.html">SALARIO</a>
-                <a href="empresa.html">EMPRESA</a>                
-                <a href="investimento.html">INVESTIMENTOS</a>
+    
+       <a href="salario.php">SALARIO</a>
+        <a href="empresa.php">EMPRESA</a>                
+        <a href="investimento.html">INVESTIMENTOS</a>
 
-            </div>
-        </nav>
-    </header>
+    </div>
+</nav>
+</header>
     <script src="javinha/index1.js"></script>
 
 

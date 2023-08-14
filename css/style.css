@@ -4,6 +4,7 @@ body{
     font-family:principal;
   }
   
+
   .to-top {
     display: none;
     position: fixed;
@@ -46,6 +47,15 @@ body{
   display: inline;
 
 }
+.footer1{
+  display: flex;
+
+}
+
+.footer1 a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
 span{
   font-size: 50px;
@@ -80,7 +90,7 @@ span{
 
 .cabeçalho a:hover{
   text-decoration: none;
-  color: rgb(247, 243, 243);
+  color: rgb(255, 255, 255);
 }
   
 
@@ -201,12 +211,10 @@ footer{
   
 }
 
-.btn1, a{
+.btn1 a{
   font-family: principal;
 }
-.btn1, a:hover{
-  color: rgb(236, 198, 92);
-}
+
 
 .button-54 {
 

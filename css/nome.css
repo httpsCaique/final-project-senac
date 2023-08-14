@@ -1,0 +1,28 @@
+.jj{
+    margin-left: 85rem;
+font-size: 30px;
+}
+
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color:rgb(236, 198, 92);
+    font-size: 2rem;
+    border-top: 0px;
+
+    
+  }
+  
+
+  @font-face{
+    font-family:tn;
+    src: url(../font/Shrikhand-Regular.ttf);
+            
+}
+
+body, a, h1, h2, h3, h4, p, button{
+font-family: tn;
+color: black;
+}

@@ -21,14 +21,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ## SE $CONT == 1 ELE EXISTE
 ## SE $CONT == 0 ELE NAO EXISTE E USUARIO NAO ESTA CADASTRADO
 
-    if ($cont == 1) {
-        $sql = "SELECT * FROM usuario WHERE nome = '$nome' AND senha = '$senha'";
+   
+if ($cont == 1) {
+    $sql = "SELECT * FROM usuario WHERE usu_nome = '$nome' AND usu_senha = '$senha'";
+    $_SESSION['nome'] = $nome;
 
-        echo "<script>window.location.href='index.HTM';</script>";
+    echo "<script>window.location.href='pricipal.php';</script>";
 
-    } else {
-        echo "<script>window.alert('USUARIO OU SENHA INCORRETO');</script>";
-    }
+} else {
+    echo "<script>window.alert('USUARIO OU SENHA INCORRETO');</script>";
+}
 }
 ?>
 
@@ -39,6 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/tuim.css">
+    <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     
     <title>LOGIN USUARIO</title>
 </head>

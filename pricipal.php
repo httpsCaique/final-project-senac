@@ -1,10 +1,6 @@
 <?php
-    
-
-
-
-
-
+    session_start();
+    $nome=$_SESSION['nome'];
 
 ?>
 <!DOCTYPE html>
@@ -14,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nome.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <title>Principal</title>
 </head>
@@ -29,13 +26,16 @@
 
             
                <a href="salario.php">SALARIO</a>
-                <a href="empresa.html">EMPRESA</a>                
+                <a href="empresa.php">EMPRESA</a>                
                 <a href="investimento.html">INVESTIMENTOS</a>
-
+               
+            
             </div>
         </nav>
+       
     </header>
     <script src="javinha/index1.js"></script>
+   
 
 
     <div class="carousel">
@@ -103,7 +103,23 @@
      </div>
     </div>
 
-
+    <nav class="gg">
+            <div class="cabeçalho">
+              <?php
+        if($nome != null)
+        {
+            ?>
+            <h2 class="jj">Olá <?=strtoupper($nome)?></h2>
+            <?php
+        }
+        else
+        {
+            echo"<script>window.alert('USUARIO NÃO AUTENTICADO'); 
+            window.location.href='login.php'; </script>";
+        }
+        ?>
+            </div>
+        </nav>
     
 
     <main>
@@ -160,11 +176,12 @@
         </div>
     </div>
 
-    <footer>
-
-
-
-
+    <footer >
+        <div class="footer1">
+        <a href="educacao.php">APRENDA</a>
+                <a href="personagens.php">PERSONAGENS</a> 
+        </div>
+                                 
     </footer>
 
 
