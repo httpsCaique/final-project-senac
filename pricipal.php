@@ -28,7 +28,7 @@
 
 
             
-               <a href="salario.html">SALARIO</a>
+               <a href="salario.php">SALARIO</a>
                 <a href="empresa.html">EMPRESA</a>                
                 <a href="investimento.html">INVESTIMENTOS</a>
 
