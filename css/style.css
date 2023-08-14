@@ -255,7 +255,34 @@ footer{
   left: 5px;
 }
 
- 
+.range {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 5px;
+  margin-top: 1.2rem;
+  background: #eee;
+  border-radius: 0.3rem;
+  outline-color: #e49929;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: rgb(20, 20, 20);
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #fdfdfd;
+  cursor: pointer;
+  border: 0;
+}
+
 
 @media (min-width: 768px) {
   .button-54 {
