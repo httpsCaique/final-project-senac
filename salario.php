@@ -1,6 +1,7 @@
 <?php
     
-
+    session_start();
+    $nome=$_SESSION['nome'];
 
 
 
@@ -16,31 +17,29 @@
     <script src="javinha/index1.js"></script>
     <script src="javinha/inpute.js"></script>
     <script src="javinha/empres.js"></script>
+    <link rel="stylesheet" href="css/nome.css">
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
 
-    <title>salario</title>
+    <title>Salario</title>
 </head>
 <body>
 
 <header>
 
 <nav>
-    <a href="principal.HTM"><img class="imagem00" src=""></a>
+            <a href="principal.HTM"><img class="imagem00" src=""></a>
 
-    <div class="cabeçalho">
-
-
-    
-       <a href="salario.php">SALARIO</a>
-        <a href="empresa.php">EMPRESA</a>                
-        <a href="investimento.html">INVESTIMENTOS</a>
-
-    </div>
+            <div class="cabeçalho">
+               <a href="salario.php">SALARIO</a>
+                <a href="empresa.php">EMPRESA</a>                
+                <a href="investimento.html">INVESTIMENTOS</a>
+               
+            </div>
 </nav>
 </header>
     <script src="javinha/index1.js"></script>
@@ -53,7 +52,7 @@
             
 
 
-        <div class="canada slide"">
+        <div class="canada slide">
           <img  src="img/Flag_of_Canada_(Pantone).svg.png" alt="bandeira canada">
           
             <span class="u-text-placeholder currency_cad">1 CAD = 3.58 BRL</span>
@@ -111,7 +110,25 @@
      </div>
     </div>
 
-    
+    <nav class="gg">
+            <div class="cabeçalho">
+              <?php
+        if($nome != null)
+        {
+            ?>
+            <h2 class="jj">Olá <?=strtoupper($nome)?></h2>
+            <?php
+        }
+        else
+        {
+            echo"<script>window.alert('USUARIO NÃO AUTENTICADO'); 
+            window.location.href='login.php'; </script>";
+        }
+        ?>
+            </div>
+        </nav>
+
+
         <main>
 
             <div class="container">
@@ -169,6 +186,11 @@
     <script src="script.js"></script>
 
         <footer>
+
+        <div class="footer1">
+        <a href="educacao.php">APRENDA</a>
+                <a href="personagens.php">PERSONAGENS</a> 
+        </div>
         </footer>
 
 </body>

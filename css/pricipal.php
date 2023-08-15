@@ -1,56 +1,51 @@
 <?php
-    
     session_start();
     $nome=$_SESSION['nome'];
 
-
-
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./javinha/tdd.js"></script>
-    <script src="javinha/empres.js"></script>
     <script src="javinha/index1.js"></script>
-    <link rel="stylesheet" href="css/carrousel.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nome.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="css/ming.css">
-   
-    <link rel="icon" href="./img/dollar.png" type="image/x-icon">
-    <title>Aprenda</title>
+    <link rel="stylesheet" href="css/carrousel.css">
+    <title>Principal</title>
 </head>
 <body>
 
-<header>
+    <header>
 
-<nav>
+        <nav>
             <a href="principal.HTM"><img class="imagem00" src=""></a>
 
             <div class="cabeçalho">
 
+
+            
                <a href="salario.php">SALARIO</a>
                 <a href="empresa.php">EMPRESA</a>                
                 <a href="investimento.html">INVESTIMENTOS</a>
                
+            
             </div>
         </nav>
-</header>
+       
+    </header>
+    <script src="javinha/index1.js"></script>
+   
 
-<div class="carousel">
+
+    <div class="carousel">
      <div class="slider">
       <div class="slide-track">
         <div class="slides">
             
 
 
-        <div class="canada slide">
+        <div class="canada slide"">
           <img  src="img/Flag_of_Canada_(Pantone).svg.png" alt="bandeira canada">
           
             <span class="u-text-placeholder currency_cad" >1 CAD = 3.58 BRL</span>
@@ -108,7 +103,7 @@
      </div>
     </div>
 
-<nav class="gg">
+    <nav class="gg">
             <div class="cabeçalho">
               <?php
         if($nome != null)
@@ -125,16 +120,38 @@
         ?>
             </div>
         </nav>
-  <div class="contaner-aux">
-    <div>
-    <div class="conteudo">
-    <h1 class="ajuste">Educação Financeira</h1>
-    <p class="texto ajuste1">Educação financeira é um processo de adquirir conhecimentos, habilidades e atitudes necessárias para tomar decisões financeiras inteligentes. Através da educação financeira, as pessoas aprendem a gerenciar eficazmente seus recursos financeiros, a tomar decisões conscientes sobre gastos e investimentos, a evitar dívidas prejudiciais e a construir um futuro financeiro seguro.</p>
-    </div>
-    </div>
- 
-  </div>
-   
+    
+
+    <main>
+        <div class="container">
+            <div class="principal">
+                <div class="cont-principal">
+                    <div class="digitasolo">
+                        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Shrikhand&size=40&duration=3000&pause=90&color=ECC65C&center=true&multiline=true&width=435&height=150&lines=Bem+vindo;Ao+Site;Mestre+dos+Centavos" alt="Typing SVG" /></a>
+                    </div>
+                    <div class="txt">"Finanças Total" que oferece recursos para dividir o salário, organizar finanças 
+                        empresariais e acompanhar cotação de investimentos. Ele permite aos usuários 
+                        criar categorias para distribuir o salário, gerenciar contas empresariais e
+                         monitorar investimentos em tempo real. Além disso, o site garante segurança dos 
+                         dados, possui uma interface amigável e é uma ferramenta completa para auxiliar na 
+                         administração financeira pessoal e empresarial.
+                    </div>
+                </div>
+                         <img src="img/moneybagretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </main>
 
 
 
@@ -143,47 +160,28 @@
             
                 <div class="conteudo">
 
-                    <h1 class="ajuste">Conhecimento de Conceitos Financeiros Básicos:</h1>
-                    <p class="texto ajuste1"> Educação financeira envolve aprender conceitos fundamentais, como orçamentação, economia, juros, inflação, investimento e dívidas. Compreender esses conceitos é essencial para tomar decisões informadas sobre finanças pessoais.</p>
+                    <h1 class="ajuste">Finanças</h1>
+                    <p class="texto ajuste1">As finanças são a gestão do dinheiro, principalmente em relação a empresas, organizações ou governos. Elas lidam com as questões de 
+                        como um indivíduo, empresa ou governo adquire o dinheiro necessário - chamado capital no contexto da empresa - e como eles gastam ou 
+                        investem esse dinheiro.</p>
+                        <button class="button-54 btn" role="button"> <a href="https://pt.wikipedia.org/wiki/Finan%C3%A7as" target="_blank">wikipedia</a></button>
                     </div>
 
             
                 <div class="conteudo">
-                    <h1 class="ajuste">Orçamentação e Planejamento:</h1>
-                    <p class="texto ajuste1"> Uma parte crucial da educação financeira é aprender a criar um orçamento. Isso implica em acompanhar os gastos, identificar áreas de economia e estabelecer metas financeiras realistas. Um planejamento financeiro bem estruturado ajuda a evitar gastos impulsivos e a garantir que as despesas estejam alinhadas com os objetivos financeiros de longo prazo.</p>
-                   
-                </div>          
+                    <h1 class="ajuste">Economia</h1>
+                    <p class="texto ajuste1">A economia é uma ciência que estuda o comportamento humano como uma relação entre fins e meios escassos que têm usos alternativos.</p>
+                    <button class="button-54 btn1" role="button"> <a href="https://pt.wikipedia.org/wiki/Economia" target="_blank">wikipedia</a></button>
+                </div>
         </div>
     </div>
 
-    <div class="contaner-aux">
-        <div class="princ">
-            
-                <div class="conteudo">
-
-                    <h1 class="ajuste">Gestão de Dívidas e Crédito:</h1>
-                    <p class="texto ajuste1"> Educação financeira ensina a usar o crédito de forma responsável, a evitar dívidas excessivas e a entender como os juros afetam o pagamento de empréstimos. Isso inclui saber quando é apropriado recorrer a empréstimos ou cartões de crédito, e como pagar essas dívidas de maneira eficiente.</p>
-                    </div>
-
-            
-                <div class="conteudo">
-                    <h1 class="ajuste">Investimento e Crescimento Financeiro:</h1>
-                    <p class="texto ajuste1"> A educação financeira também abrange o conhecimento sobre investimentos, desde os básicos, como poupança, até opções mais avançadas, como ações, títulos e fundos mútuos. Aprender a investir de maneira informada pode ajudar a construir riqueza ao longo do tempo e garantir uma segurança financeira futura.</p>
-                   
-                </div>          
-        </div>
-    </div>
-
-    <div class="content">
-    </div>
-    <a href="#" class="to-top" onclick="scrollToTop(); return false;">Voltar</a>
-    <script src="script.js"></script>
- 
-    <footer>
-    <div class="footer1">
+    <footer >
+        <div class="footer1">
         <a href="educacao.php">APRENDA</a>
                 <a href="personagens.php">PERSONAGENS</a> 
         </div>
+                                 
     </footer>
 
 

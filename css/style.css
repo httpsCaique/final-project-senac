@@ -3,7 +3,13 @@ body{
     background-color: rgb(255, 255, 255);
     font-family:principal;
   }
-  
+  *{
+    font-family: principal;
+  }
+  body, a, h1, h2, h3, h4, p, button{
+    font-family:principal;
+    color: black;
+    }
 
   .to-top {
     display: none;
@@ -62,12 +68,13 @@ span{
 }
 
 .format{
- 
-  border: 5px black solid;
+  border: 5px rgb(0, 0, 0) solid;
   border-radius: 0.4rem;
-  top: -5px;
+  top: -9px;
   position: relative;
-  
+  width: 7rem;
+  height: 2rem;
+  font-size: 20px;
   
 }
 
@@ -76,12 +83,17 @@ span{
 
 }
 
-.cabeçalho, a{
+div, .cabeçalho, a{
+  font-family: principal;
+}
+
+
+.cabeçalho a{
   text-decoration: none;
   color: black;
   margin-left:2rem;
   margin-right:2rem;
-  font-family: Bungee;
+  font-family: principal;
   font-size: 50px;
 
 
@@ -206,7 +218,7 @@ footer{
 
 
 @font-face{
-  font-family: principal;
+  font-family:principal;
   src: url(../font/Shrikhand-Regular.ttf);
   
 }
@@ -304,12 +316,12 @@ footer{
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin: 50px auto;
-  margin-top: 15rem;
   padding: 100px;
   width: 1000px;
   text-align: center;
   border: 5px black solid;
-  height: 1250px;
+  height: 1600px;
+ 
 
  }
 
@@ -338,12 +350,8 @@ footer{
 
 
 .princ3{
-  font-size: 2.5rem;
-
-
-
+  font-size: 3rem;
 }
-
 
 #salario{
   font-size: 20px;
@@ -353,8 +361,8 @@ footer{
 .calcprincipal{
  
   border: 5px solid black;
-  width: 200px;
+  width: 600px;
   height: 60px;
-  background-color: transparent;
-  margin-left:380px;
+  background-color: rgb(214, 214, 214);
+margin-left:200px ;
 }

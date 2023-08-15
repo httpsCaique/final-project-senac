@@ -1,110 +1,120 @@
 body{
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    font-family:principal;
-  }
-  
-  .to-top {
-    display: none;
-    position: fixed;
-    bottom: 0px;
-    height: 40px;
-    right: -20px;
-    font-size: 30px;
-    padding: -10px -10px;
-    background-color:rgb(236, 198, 92);
-    color: #000000;
-    border: 5px rgb(0, 0, 0) solid;
-    text-decoration: none;
-    border-radius: 2px;
-  }
-  
-  .to-top:hover {
-    color: #ffffff;
-  }
-  
-  .show {
-    display: block;
-  }
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  font-family:principal;
+}
 
-  nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8rem;
-    background-color:rgb(236, 198, 92);
-    font-size: 2rem;
-    border-bottom: 5px black solid;
-    border-top: 5px black solid;
+.to-top {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  height: 40px;
+  right: -20px;
+  font-size: 30px;
+  padding: -10px -10px;
+  background-color:rgb(236, 198, 92);
+  color: #000000;
+  border: 5px rgb(0, 0, 0) solid;
+  text-decoration: none;
+  border-radius: 2px;
+}
 
-   
-  }
-  
+.to-top:hover {
+  color: #ffffff;
+}
+
+.show {
+  display: block;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  background-color:rgb(236, 198, 92);
+  font-size: 2rem;
+  border-bottom: 5px black solid;
+  border-top: 5px black solid;
+
+ 
+}
+
 
 .cabeçalho{
-  display: inline;
+display: inline;
 
 }
 
 span{
-  font-size: 50px;
+font-size: 50px;
 }
+
 
 .format{
-  border: 5px black solid;
+  border: 5px rgb(0, 0, 0) solid;
+  border-radius: 0.4rem;
+  top: -9px;
+  position: relative;
+  width: 7rem;
+  height: 2rem;
+  font-size: 20px;
+  
 }
 
+
+
 .central{
-  font-family: principal;
+font-family: principal;
 
 }
 
 .cabeçalho, a{
-  text-decoration: none;
-  color: black;
-  margin-left:2rem;
-  margin-right:2rem;
-  font-family: Bungee;
-  font-size: 50px;
+text-decoration: none;
+color: black;
+margin-left:2rem;
+margin-right:2rem;
+font-family: Bungee;
+font-size: 50px;
 
 
 }
 
 
 .cabeçalho a:hover{
-  text-decoration: none;
-  color: rgb(247, 243, 243);
+text-decoration: none;
+color: rgb(247, 243, 243);
 }
-  
+
 
 
 /*carrousel*/
 
 .carousel {
-  overflow: hidden;
-  border-bottom: 5px black solid;
+overflow: hidden;
+border-bottom: 5px black solid;
 }
 
 .slides {
-  display: flex;
-  transition: transform 0.3s ease;
-  
- 
+display: flex;
+transition: transform 0.3s ease;
+
+
 }
 
 .slides img {
-  height: 50px;
-  width: 100px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin-left: 30px ;
-  margin-right: 2rem;
- 
+height: 50px;
+width: 100px;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 30px ;
+margin-right: 2rem;
+
 }
 
 .u-text-placeholder{
-  font-size: 15px;
-  margin-left: 20px;
+font-size: 15px;
+margin-left: 20px;
 
 }
 
@@ -112,208 +122,259 @@ span{
 
 
 .txt{
-  font-size: 25px;
-  border: 5px black solid;
-  padding: 20px;
-  border-radius: 10px;
+font-size: 25px;
+border: 5px black solid;
+padding: 20px;
+border-radius: 10px;
 
-  
+
 }
 
 
 
 .container{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .principal{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10%;
-  margin-right: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 .digitasolo{
-  margin-bottom: 5rem;
+margin-bottom: 5rem;
 }
 
 
 .princ{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 
 .imagem00{
-  height: 200px; width: 200px;
+height: 200px; width: 200px;
 }
 
 
 .conteudo{
-  width: 50rem;
-  height: 25rem;
-  background-color: rgb(224, 224, 224);
-  margin: 2rem;
-  border: 5px black solid;
-  border-radius: 10px;
+width: 50rem;
+height: 30rem;
+background-color: rgb(255, 255, 255);
+margin: 2rem;
+border: 5px black solid;
+border-radius: 10px;
 }
 
-.tss{
-    
-    width: 90rem;
-    height: 15rem;
-    background-color: rgb(224, 224, 224);
-  margin-top: 2rem;
-    margin-left: 7rem;
-    border: 5px black solid;
-    border-radius: 10px;
-}
 
 footer{
 
-  height: 8rem;
-  background-color:rgb(236, 198, 92);
-  border-top: 5px black solid;
-  border-bottom: 5px black solid;
+height: 8rem;
+background-color:rgb(236, 198, 92);
+border-top: 5px black solid;
+border-bottom: 5px black solid;
 
 }
 
 .contaner-aux{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+margin-top: 15rem;
+margin-bottom: 10rem;
 }
 
 
 .usd, .canada, .russia, .japao, .india, .china, .reino-unido, .uniao, .hk{
-  display:flex;
-  flex-direction: column;
-  margin-right: 9px;
-  
+display:flex;
+flex-direction: column;
+margin-right: 9px;
+
 }  
 
 
+.footer1{
+display: flex;
 
+}
+
+.footer1 a:hover{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
 
 
 
 @font-face{
-  font-family: principal;
-  src: url(/final-project-senac/font/Shrikhand-Regular.ttf);
-  
+font-family: principal;
+src: url(../font/Shrikhand-Regular.ttf);
+
 }
 
 .btn1, a{
-  font-family: principal;
+font-family: principal;
 }
 .btn1, a:hover{
-  color: rgb(236, 198, 92);
+color: rgb(236, 198, 92);
 }
 
 .button-54 {
 
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-  cursor: pointer;
-  border: 3px solid;
-  font-family: principal;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+cursor: pointer;
+border: 3px solid;
+font-family: principal;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
 
 }
 
 
 
- 
+
 .texto{
-  font-family: principal;
-  font-size: 25px;
+font-family: principal;
+font-size: 20px;
 }
 
 .ajuste{
-  text-align: center;
-  font-family: principal;
+margin-left: 40%;
+font-family: principal;
 }
 .ajuste1{
-  margin: 20px;
+margin: 20px;
 }
 .btn{
-  margin-top: 20px;
-  margin-left: 23%;
+margin-top: 20px;
+margin-left: 23%;
 }
 
 .btn1{
-  margin-top: 105px;
-  margin-left: 25%;
+margin-top: 105px;
+margin-left: 25%;
 }
 
 .button-54:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
+box-shadow: 0px 0px 0px 0px;
+top: 5px;
+left: 5px;
 }
 
- 
+
 
 @media (min-width: 768px) {
-  .button-54 {
-    padding: 0.25em 0.75em;
-  }
+.button-54 {
+  padding: 0.25em 0.75em;
+}
 }
 
 
 .articlee{
-  background-color:rgb(236, 198, 92);
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin: 50px auto;
-  padding: 100px;
-  width: 1000px;
-  text-align: center;
-  border: 5px black solid;
-  height: 1000px;
+background-color:rgb(236, 198, 92);
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+margin: 50px auto;
+padding: 100px;
+width: 1000px;
+text-align: center;
+border: 5px black solid;
+height: 1600px;
 
- }
+}
 
- .graficostilo{
-  padding: 100px;
-  width: 1000px;
-  margin-left:17rem;
- }
+.graficostilo{
+padding: 100px;
+width: 1000px;
+margin-left:17rem;
+}
 
 
 
 .princ2{
-  border: 5px black solid;
-  margin: 20px;
-  height: 50px;
-  background-color: rgb(199, 197, 197);
- 
+border: 5px black solid;
+margin: 20px;
+height: 50px;
+background-color: rgb(199, 197, 197);
+
 }
 
 .ty{
-  font-size: 40px;
+font-size: 40px;
 }
 
+.king{
+width: 80rem;
+height: 80rem;
+margin-left: 14rem;
+margin-bottom: 1rem;
+}
 
 .princ3{
-  font-size: 3rem;
+font-size: 3rem;
 }
 
 #salario{
-  font-size: 20px;
+font-size: 20px;
 }
 
 .calcprincipal{
- 
-  border: 5px solid black;
-  width: 200px;
-  height: 50px;
-  background-color: transparent;
-margin-left:380px ;
+
+border: 5px solid black;
+width: 600px;
+height: 60px;
+background-color: rgb(214, 214, 214);
+margin-left:200px ;
+}
+
+.graficostilo{
+
+  padding: 100px;
+
+  width: 1000px;
+  margin-left:17rem;
+
+ }
+
+ .card {
+  width: 400px;
+  padding: 30px;
+  background-color:rgb(236, 198, 92);
+  
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 0px 0px 12px rgba(0,0,0,1);
+-webkit-box-shadow: -1px 0px 0px 12px rgba(0,0,0,1);
+-moz-box-shadow: -1px 0px 0px 12px rgba(0,0,0,1);
+}
+
+.card p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #000000;
+  text-align: center;
 }

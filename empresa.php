@@ -1,3 +1,14 @@
+<?php
+    
+    session_start();
+    $nome=$_SESSION['nome'];
+
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-bt">
 <head>
@@ -7,28 +18,29 @@
     <script src="javinha/empres.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-
+    <link rel="stylesheet" href="css/nome.css">
     <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="icon" href="./img/dollar.png" type="image/x-icon">
-    <title>Document</title>
+    <title>Empresa</title>
 </head>
 <body>
 <header>
 
 <nav>
-    <a href="principal.HTM"><img class="imagem00" src=""></a>
+            <a href="principal.HTM"><img class="imagem00" src=""></a>
 
-    <div class="cabeçalho">
+            <div class="cabeçalho">
 
 
-    
-       <a href="salario.php">SALARIO</a>
-        <a href="empresa.php">EMPRESA</a>                
-        <a href="investimento.html">INVESTIMENTOS</a>
-
-    </div>
-</nav>
+            
+               <a href="salario.php">SALARIO</a>
+                <a href="empresa.php">EMPRESA</a>                
+                <a href="investimento.html">INVESTIMENTOS</a>
+               
+            
+            </div>
+        </nav>
 </header>
     <script src="javinha/index1.js"></script>
 
@@ -43,12 +55,12 @@
         <div class="canada slide">
           <img  src="img/Flag_of_Canada_(Pantone).svg.png" alt="bandeira canada">
           
-            <span class="u-text-placeholder currency_cad" ">1 CAD = 3.58 BRL</span>
+            <span class="u-text-placeholder currency_cad" >1 CAD = 3.58 BRL</span>
         </div>
 
         <div class="usd slide">
             <img  src="img/Flag_of_the_United_States.svg.png"   alt="bandeira estados unidos">
-                <span class="u-text-placeholder currency_usd" ">1 USD = 4.73 BRL</span>
+                <span class="u-text-placeholder currency_usd" >1 USD = 4.73 BRL</span>
         </div>
 
         <div class="russia slide">
@@ -98,6 +110,23 @@
      </div>
     </div>
 
+    <nav class="gg">
+            <div class="cabeçalho">
+              <?php
+        if($nome != null)
+        {
+            ?>
+            <h2 class="jj">Olá <?=strtoupper($nome)?></h2>
+            <?php
+        }
+        else
+        {
+            echo"<script>window.alert('USUARIO NÃO AUTENTICADO'); 
+            window.location.href='login.php'; </script>";
+        }
+        ?>
+            </div>
+        </nav>
 
         <main>
             <div class="container">
@@ -164,7 +193,10 @@
           <script src="script.js"></script>
 
         <footer>
-
+        <div class="footer1">
+        <a href="educacao.php">APRENDA</a>
+                <a href="personagens.php">PERSONAGENS</a> 
+        </div>
         </footer>
 
 </body>
