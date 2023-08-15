@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
+    <script src="javinha/investimento.js"></script>
   
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carrousel.css">
-    <title>Document</title>
+    <title>Investimento</title>
 </head>
 <body>
 
@@ -110,14 +111,39 @@
                     </div>
                 </div>
                          <img src="img/moneybagretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
-
             </div>
-
-
-
-
-
         </div>
+
+        <article class="articlee">
+            <p class="ty"> <p class="princ3"> Eu tenho R$  <input type="number" name="dif1" id="dif1" class="format"  focus required ></p>
+            <br>
+            <br>
+            <p class="ty"> <p class="princ3"> Para aplicar durante  <input type="number" name="dif2" id="dif2" class="format">anos</p>
+            <br>
+            <div id="rangeValue">0</div>
+            <p class="ty"> <p class="princ3"> Para aplicar durante  <input type="range" name="dif3" id="dif3" class="format" min="0" max="12"  oninput="updateRangeValue()">Meses</p>
+
+            <br>
+            <label >Investimentos</label>
+            <select name="investments" id="investments">
+                <option value="nada">SELECIONE SUA OPÇÃO</option>
+                <option value="selic">TESOURO SELIC</option>
+                <option value="prefixado">TESOURO PREFIXADO</option>
+                <option value="ipca">TESOURO IPCA+</option>
+                <option value="renda">TESOURO RENDA+</option>
+
+            </select>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button class="button-54" id="button01" onclick="calcinvestimento()"role="button" style="margin-right: 6rem;"><a >Calcular</a></button>
+            <button class="button-54" id="button01" onclick="limparCampos()" role="button" ><a>&nbsp;Limpar&nbsp;</a></button>
+            
+            <br>
+            <p class="calcprincipal"> <span id="resultado"></span> </p>
+
+            </article>
 
 
 
