@@ -199,6 +199,23 @@ span{
   border-radius: 10px;
 }
 
+.conteudo-top{
+  width: 90rem;
+  height: 15rem;
+  background-color: rgb(212, 212, 212);
+  margin: 2rem;
+  border: 5px black solid;
+  border-radius: 10px;
+}
+
+.conteudo-eda{
+  width: 50rem;
+  height: 25rem;
+  background-color: rgb(212, 212, 212);
+  margin: 2rem;
+  border: 5px black solid;
+  border-radius: 10px;
+}
 
 
 
@@ -216,6 +233,16 @@ footer{
   margin-bottom: 10rem;
 }
 
+.contaneral{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contaneras{
+  margin-top: 2rem;
+  margin-left: 33px;
+  margin-bottom: 2rem;
+}
 
 
 
@@ -275,9 +302,16 @@ font-size: 50px;
 
 
  
+
 .texto{
   font-family: principal;
   font-size: 20px;
+}
+
+.texto2{
+  font-family: principal;
+  font-size: 24px;
+
 }
 
 .ajuste{
@@ -287,6 +321,16 @@ font-size: 50px;
 .ajuste1{
   margin: 20px;
 }
+
+.ajuste2{
+  margin: 20px;
+}
+
+.ajuste3{
+  margin: 20px;
+  margin-left: 40%;
+}
+
 .btn{
   margin-top: 20px;
   margin-left: 23%;
