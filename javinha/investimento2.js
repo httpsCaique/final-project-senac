@@ -1,19 +1,22 @@
+// Declare myChart as a global variable
+let myChart;
+
 function updateRangeValue() {
     let dif3Element = document.getElementById("dif3");
     let rangeValue = document.getElementById("rangeValue");
 
     rangeValue.innerText = dif3Element.value;
-    calcinvestimento(); //Chamando a função de cálculo toda vez que o valor é atualizado
+    calcinvestimento();
 }
-
 
 function calcinvestimento() {
     let dif1 = Number(document.getElementById("dif1").value);
-    let investments = document.getElementById("investments").value; // Get the selected value from the dropdown
-    let dif2 = parseFloat(document.getElementById("dif2").value); // Parse the value as a float
-    let dif3 = parseFloat(document.getElementById("dif3").value); // Parse the value as a float
+    let investments = document.getElementById("investments").value;
+    let dif2 = parseFloat(document.getElementById("dif2").value);
+    let dif3 = parseFloat(document.getElementById("dif3").value);
 
     let resultado = 0;
+    let poupança = 0;
 
     switch (investments) {
         case "selic": // Make sure to compare with a string value
@@ -124,26 +127,59 @@ function calcinvestimento() {
 
   
 
+
+
         default:
             console.log("Invalid investment type");
-            
             break;
     }
 
+    document.getElementById("resultado").textContent = resultado.toFixed(2);
+    document.getElementById("poupança").textContent = poupança.toFixed(2);
 
+    // Update the chart data and destroy/create the chart
+    updateChart(resultado, poupança);
+}
 
+function updateChart(Investimento, Poupança) {
+    // Create the data for the doughnut chart
+    let chartData = {
+        labels: ["Investimento", "Poupança"],
+        datasets: [
+            {
+                data: [Investimento, Poupança],
+                backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(54, 162, 235, 0.2)"],
+                borderColor: ["rgba(0, 0, 0)", "rgba(0, 0, 0)"],
+                borderWidth: 2,
+            },
+        ],
+    };
 
+    let ctx = document.getElementById("investmentChart").getContext("2d");
+
+    // If myChart already exists, destroy it before creating a new one
+    if (myChart) {
+        myChart.destroy();
+    }
+
+    // Create a new doughnut chart using Chart.js
+    myChart = new Chart(ctx, {
+        type: "doughnut",
+        data: chartData,
+    });
 }
 
 function limparCampos() {
-    // Limpar campos de entrada
     document.getElementById("dif1").value = "";
     document.getElementById("investments").selectedIndex = 0;
     document.getElementById("dif2").value = "";
     document.getElementById("dif3").value = "";
     document.getElementById("rangeValue").innerText = "";
-    
-    // Limpar resultados
     document.getElementById("resultado").textContent = "0.00";
     document.getElementById("poupança").textContent = "0.00";
+
+    // If myChart exists, destroy it when clearing fields
+    if (myChart) {
+        myChart.destroy();
+    }
 }
