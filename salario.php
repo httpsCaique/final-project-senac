@@ -37,7 +37,7 @@
             <div class="cabeçalho">
                <a href="salario.php">SALARIO</a>
                 <a href="empresa.php">EMPRESA</a>                
-                <a href="investimento.html">INVESTIMENTOS</a>
+                <a href="investimento.php">INVESTIMENTOS</a>
                
             </div>
 </nav>

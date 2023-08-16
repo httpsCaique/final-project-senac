@@ -6,6 +6,7 @@
     <script src="javinha/index1.js"></script>
     <script src="javinha/investimento2.js"></script>
     <script src="javinha/empres.js"></script>
+    <link rel="stylesheet" href="css/font.css">
   
     <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
@@ -25,9 +26,9 @@
 
 
             
-                <a href="salario.html">SALARIO</a>
-                <a href="empresa.html">EMPRESA</a>                
-                <a href="investimento.html">INVESTIMENTOS</a>
+                <a href="salario.php">SALARIO</a>
+                <a href="empresa.php">EMPRESA</a>                
+                <a href="investimento.php">INVESTIMENTOS</a>
 
             </div>
         </nav>
@@ -167,7 +168,9 @@
         <a href="#" class="to-top" onclick="scrollToTop(); return false;">Voltar</a>
         <script src="script.js"></script>
 
-        <canvas id="investmentChart" width="400" height="200"></canvas>
+        <div class="king">
+        <canvas id="investmentChart"></canvas>
+    </div>
     <footer>
 
 

@@ -41,7 +41,7 @@ function calcsalario() {
       datasets: [
         {
           data: [n50, n30, n20],
-          backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(54, 162, 235, 0.2)", "rgba(75, 192, 192, 0.2)"],
+          backgroundColor: ["rgba(236, 198, 92, 100)", "rgba(252, 65, 18, 99)", "rgba(230, 5, 82, 100)"],
           div: [n50, n30, n20],
           borderColor: ["rgba(0, 0, 0)", "rgba(0, 0, 0)", "rgba(0, 0, 0)"],
           borderWidth: 5,

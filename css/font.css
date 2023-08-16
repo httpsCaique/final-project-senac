@@ -3,6 +3,14 @@
     src: url(../font/Shrikhand-Regular.ttf);
             
 }
+.king{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 14rem;
+    margin-bottom: 1rem;
+    }
+    
+
 
 body, a, h1, h2, h3, h4, p, button{
 font-family: tn;

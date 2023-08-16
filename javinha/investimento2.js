@@ -148,9 +148,9 @@ function updateChart(Investimento, Poupança) {
         datasets: [
             {
                 data: [Investimento, Poupança],
-                backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(54, 162, 235, 0.2)"],
+                backgroundColor: ["rgba(236, 198, 92, 100)", "rgba(252, 65, 18, 99)"],
                 borderColor: ["rgba(0, 0, 0)", "rgba(0, 0, 0)"],
-                borderWidth: 2,
+                borderWidth: 5,
             },
         ],
     };
