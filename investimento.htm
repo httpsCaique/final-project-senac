@@ -6,9 +6,9 @@
     <script src="javinha/index1.js"></script>
     <script src="javinha/investimento.js"></script>
   
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
-    <link rel="stylesheet" href="css/arrumar.css">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <title>Investimento</title>
@@ -123,7 +123,7 @@
             <br>
             <p class="ty"> <p class="princ3"> Para aplicar durante  <input type="number" name="dif2" id="dif2" class="format"> anos </p>
             <br>
-            <p class="ty"> <p class="princ3"> Para aplicar durante   <a id="rangeValue"> 0 </a> Meses</p>
+            <p class="ty"> <p class="princ3"> Para aplicar durante   <b id="rangeValue" class="ajeitar"> 0 </b> Meses</p>
             <input type="range" name="dif3" id="dif3" class="format" min="0" max="12"  width="2000px" oninput="updateRangeValue()">
             <br>
             <label >Investimentos</label>
@@ -139,16 +139,18 @@
             <br>
             <br>
             <br>
-            <button class="button-54" id="button01" onclick="calcinvestimento()"role="button" style="margin-right: 6rem;"><a >Calcular</a></button>
+            <button class="button-54" id="button01" onclick="calcinvestimento()"role="button" style="margin-right: 6rem;"><a>Calcular</a></button>
             <button class="button-54" id="button01" onclick="limparCampos()" role="button" ><a>&nbsp;Limpar&nbsp;</a></button>
             
+            <article class="calculartudo">
             <br>
-            <p class="calcprincipal"> <span id="resultado"></span> </p>
+            <p class="princ3">Investimento</p> 
+            <p class="calcprincipal ajeitar2"> <span id="resultado"></span> </p>
             <br>
 
-                               <a class="princ3">bolsa</a> 
+                               <p class="princ3">Poupança</p> 
             <p class="calcprincipal">  <span id="poupança"></span> </p>
-
+        </article>
             </article>
 
 

@@ -4,6 +4,35 @@ body{
     font-family:principal;
   }
 
+.ajeitar{
+  border-bottom: #ffffff solid 5px;
+}
+
+.calculartudo{
+  margin-top: 5rem;
+}
+
+
+
+#dif3{
+  width: 25rem;
+  background: #d10b0b;
+
+}
+
+#investments{
+  border: 5px rgb(0, 0, 0) solid;
+  border-radius: 0.4rem;
+  top: -9px;
+  position: relative;
+  width: 13rem;
+  height: 3rem;
+  font-family: principal;
+  margin-left: 20px;
+
+
+}
+
   .to-top {
     display: none;
     position: fixed;
@@ -221,6 +250,10 @@ footer{
 }
 .btn1, a:hover{
   color: rgb(236, 198, 92);
+}
+
+label{
+font-size: 50px;
 }
 
 .button-54 {
