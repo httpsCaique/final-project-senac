@@ -1,7 +1,6 @@
 <?php
     session_start();
     $nome=$_SESSION['nome'];
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
