@@ -228,6 +228,7 @@ footer{
 
 }
 
+
 .contaner-aux{
   margin-top: 15rem;
   margin-bottom: 10rem;
@@ -254,14 +255,37 @@ footer{
 }  
 
 
-.footer1{
+.footer1 {
   display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
 
+.footer1 a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.footer1 img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
 }
 
 .footer1 a:hover{
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.okk
+{
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -451,6 +475,7 @@ margin-left:200px ;
   box-shadow: -1px 0px 0px 12px rgba(0,0,0,1);
 -webkit-box-shadow: -1px 0px 0px 12px rgba(0,0,0,1);
 -moz-box-shadow: -1px 0px 0px 12px rgba(0,0,0,1);
+background-color:rgb(240, 187,12);
 }
 
 .card p {

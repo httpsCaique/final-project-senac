@@ -194,8 +194,22 @@
 
         <footer>
         <div class="footer1">
-        <a href="educacao.php">APRENDA</a>
-                <a href="personagens.php">PERSONAGENS</a> 
+            <div class="okk">
+            <a href="educacao.php" >APRENDA</a>
+            <a href="personagens.php">PERSONAGENS</a>
+            </div>
+            <div class="okk">
+                  <a href="https://www.instagram.com/https.caiquearruda/" target="_blank">
+                <img src="./img/ints2.png" alt="Instagram">
+            </a>
+            <a href="https://www.instagram.com/guilherme_henrique_mb/" target="_blank">
+                <img src="./img/ints2.png" alt="Instagram">
+            </a>
+            </div>
+          <div class="okk" style="margin-left: -25px;  ">
+            <p>Caique Fumaça</p>
+            <p>Guilherme Lanches</p>
+          </div>
         </div>
         </footer>
 
