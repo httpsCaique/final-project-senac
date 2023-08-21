@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+<?php
+
+
+
+session_start();
+$nome=$_SESSION['nome'];
+
+
+
+
+
+
+
+?><!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +20,11 @@
     <script src="javinha/investimento2.js"></script>
     <script src="javinha/empres.js"></script>
     <link rel="stylesheet" href="css/font.css">
-  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/ling.css">
+    <link rel="stylesheet" href="css/nome.css">
     <link rel="stylesheet" href="css/carrousel.css">
-
+    <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <title>Investimento</title>
@@ -20,7 +34,7 @@
     <header>
 
         <nav>
-            <a href="principal.HTM"><img class="imagem00" src=""></a>
+        <a href="pricipal.php"><img class="imagem00" src=""></a>
 
             <div class="cabeçalho">
 
@@ -100,6 +114,34 @@
       </div>
      </div>
     </div>
+
+
+    <nav class="gg">
+            <div class="cabeçalho">
+                <div class="container-calculator" style="display: flex; align-items: center;">
+                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
+
+        <?php
+        if($nome != null)
+        {
+            ?>
+            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <?php
+        }
+        else
+        {
+            echo"<script>window.alert('USUARIO NÃO AUTENTICADO'); 
+            window.location.href='login.php'; </script>";
+        }
+        ?>
+            
+                </div>
+            </div>
+        </nav>
+
+
+
+
     <main>
         <div class="container">
             <div class="principal">
@@ -118,6 +160,10 @@
                          <img src="img/moneybagretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
             </div>
         </div>
+
+
+        
+
 
         <article class="articlee">
             <p class="ty"> <p class="princ3"> Eu tenho R$  <input type="number" name="dif1" id="dif1" class="format"  focus required ></p>
@@ -172,12 +218,24 @@
         <canvas id="investmentChart"></canvas>
     </div>
     <footer>
-
-
-        <div class="footer1">
-            <a href="educacao.php">APRENDA</a>
-                    <a href="personagens.php">PERSONAGENS</a> 
+    <div class="footer1">
+            <div class="okk">
+            <a href="educacao.php" >APRENDA</a>
+            <a href="personagens.php">PERSONAGENS</a>
             </div>
+            <div class="okk">
+                  <a href="https://github.com/httpsCaique" target="_blank">
+                <img src="./img/github.png" alt="Instagram">
+            </a>
+            <a href="https://www.instagram.com/guilherme_henrique_mb/" target="_blank">
+                <img src="./img/ints2.png" alt="Instagram">
+            </a>
+            </div>
+          <div class="okk" style="margin-left: -25px;  ">
+            <p>httpscaique</p>
+            <p>YGuilhermo13</p>
+          </div>
+        </div>
 
     </footer>
 </body>

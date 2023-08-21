@@ -4,8 +4,6 @@ body{
     font-family:principal;
   }
   
-
-
   nav,  a{
     display: flex;
     justify-content: center;

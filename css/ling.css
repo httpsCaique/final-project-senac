@@ -235,15 +235,9 @@ footer{
 }
 
 .contaneral{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+display: flex;
 }
 
-.contaneras{
-  margin-top: 2rem;
-  margin-left: 33px;
-  margin-bottom: 2rem;
-}
 
 
 
@@ -392,6 +386,7 @@ font-size: 50px;
   height: 1600px;
 
  }
+
 
  .graficostilo{
   padding: 100px;

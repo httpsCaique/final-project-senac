@@ -46,6 +46,7 @@ if (empty($cpf) || empty($nome) || empty($senha)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/tuim.css">
+    <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     <title>CADASTRO</title>
 </head>
 <body>

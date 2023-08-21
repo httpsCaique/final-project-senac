@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
     <script src="javinha/empres.js"></script>
-    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <link rel="stylesheet" href="css/nome.css">
@@ -30,7 +30,7 @@
 <header>
 
 <nav>
-    <a href="principal.HTM"><img class="imagem00" src=""></a>
+<a href="pricipal.php"><img class="imagem00" src=""></a>
 
     <div class="cabeçalho">
 
@@ -108,13 +108,16 @@
      </div>
     </div>
 
-<nav class="gg">
+    <nav class="gg">
             <div class="cabeçalho">
-              <?php
+                <div class="container-calculator" style="display: flex; align-items: center;">
+                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
+
+        <?php
         if($nome != null)
         {
             ?>
-            <h2 class="jj">Olá <?=strtoupper($nome)?></h2>
+            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -123,6 +126,8 @@
             window.location.href='login.php'; </script>";
         }
         ?>
+            
+                </div>
             </div>
         </nav>
 
@@ -178,8 +183,22 @@
 
         <footer>
         <div class="footer1">
-        <a href="educacao.php">APRENDA</a>
-                <a href="personagens.php">PERSONAGENS</a> 
+            <div class="okk">
+            <a href="educacao.php" >APRENDA</a>
+            <a href="personagens.php">PERSONAGENS</a>
+            </div>
+            <div class="okk">
+                  <a href="https://github.com/httpsCaique" target="_blank">
+                <img src="./img/github.png" alt="Instagram">
+            </a>
+            <a href="https://www.instagram.com/guilherme_henrique_mb/" target="_blank">
+                <img src="./img/ints2.png" alt="Instagram">
+            </a>
+            </div>
+          <div class="okk" style="margin-left: -25px;  ">
+            <p>httpscaique</p>
+            <p>YGuilhermo13</p>
+          </div>
         </div>
         </footer>
 
