@@ -3,10 +3,6 @@
     session_start();
     $nome=$_SESSION['nome'];
 
-
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +17,7 @@
     <link rel="stylesheet" href="css/nome.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="css/ming.css">
+    <link rel="stylesheet" href="css/ling.css">
    
     <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     <title>Aprenda</title>
@@ -125,11 +121,11 @@
         ?>
             </div>
         </nav>
-  <div class="contaner-aux">
+  <div class="contaneras">
     <div>
-    <div class="conteudo">
-    <h1 class="ajuste">Educação Financeira</h1>
-    <p class="texto ajuste1">Educação financeira é um processo de adquirir conhecimentos, habilidades e atitudes necessárias para tomar decisões financeiras inteligentes. Através da educação financeira, as pessoas aprendem a gerenciar eficazmente seus recursos financeiros, a tomar decisões conscientes sobre gastos e investimentos, a evitar dívidas prejudiciais e a construir um futuro financeiro seguro.</p>
+    <div class="conteudo-top">
+    <h1 class="ajuste3">Educação Financeira</h1>
+    <p class="texto2 ajuste1">Educação financeira é um processo de adquirir conhecimentos, habilidades e atitudes necessárias para tomar decisões financeiras inteligentes. Através da educação financeira, as pessoas aprendem a gerenciar eficazmente seus recursos financeiros, a tomar decisões conscientes sobre gastos e investimentos, a evitar dívidas prejudiciais e a construir um futuro financeiro seguro.</p>
     </div>
     </div>
  
@@ -138,37 +134,37 @@
 
 
 
-    <div class="contaner-aux">
+    <div class="contaneral">
         <div class="princ">
             
-                <div class="conteudo">
+                <div class="conteudo-eda">
 
-                    <h1 class="ajuste">Conhecimento de Conceitos Financeiros Básicos:</h1>
-                    <p class="texto ajuste1"> Educação financeira envolve aprender conceitos fundamentais, como orçamentação, economia, juros, inflação, investimento e dívidas. Compreender esses conceitos é essencial para tomar decisões informadas sobre finanças pessoais.</p>
+                    <h1 class="ajuste2">Conhecimento de Conceitos Financeiros Básicos:</h1>
+                    <p class="texto2 ajuste1"> Educação financeira envolve aprender conceitos fundamentais, como orçamentação, economia, juros, inflação, investimento e dívidas. Compreender esses conceitos é essencial para tomar decisões informadas sobre finanças pessoais.</p>
                     </div>
 
             
-                <div class="conteudo">
-                    <h1 class="ajuste">Orçamentação e Planejamento:</h1>
-                    <p class="texto ajuste1"> Uma parte crucial da educação financeira é aprender a criar um orçamento. Isso implica em acompanhar os gastos, identificar áreas de economia e estabelecer metas financeiras realistas. Um planejamento financeiro bem estruturado ajuda a evitar gastos impulsivos e a garantir que as despesas estejam alinhadas com os objetivos financeiros de longo prazo.</p>
+                <div class="conteudo-eda">
+                    <h1 class="ajuste2">Orçamentação e Planejamento:</h1>
+                    <p class="texto2 ajuste1"> Uma parte crucial da educação financeira é aprender a criar um orçamento. Isso implica em acompanhar os gastos, identificar áreas de economia e estabelecer metas financeiras realistas. Um planejamento financeiro bem estruturado ajuda a evitar gastos impulsivos e a garantir que as despesas estejam alinhadas com os objetivos financeiros de longo prazo.</p>
                    
                 </div>          
         </div>
     </div>
 
-    <div class="contaner-aux">
+    <div class="contaneral">
         <div class="princ">
             
-                <div class="conteudo">
+                <div class="conteudo-eda">
 
-                    <h1 class="ajuste">Gestão de Dívidas e Crédito:</h1>
-                    <p class="texto ajuste1"> Educação financeira ensina a usar o crédito de forma responsável, a evitar dívidas excessivas e a entender como os juros afetam o pagamento de empréstimos. Isso inclui saber quando é apropriado recorrer a empréstimos ou cartões de crédito, e como pagar essas dívidas de maneira eficiente.</p>
+                    <h1 class="ajuste2">Gestão de Dívidas e Crédito:</h1>
+                    <p class="texto2 ajuste1"> Educação financeira ensina a usar o crédito de forma responsável, a evitar dívidas excessivas e a entender como os juros afetam o pagamento de empréstimos. Isso inclui saber quando é apropriado recorrer a empréstimos ou cartões de crédito, e como pagar essas dívidas de maneira eficiente.</p>
                     </div>
 
             
-                <div class="conteudo">
-                    <h1 class="ajuste">Investimento e Crescimento Financeiro:</h1>
-                    <p class="texto ajuste1"> A educação financeira também abrange o conhecimento sobre investimentos, desde os básicos, como poupança, até opções mais avançadas, como ações, títulos e fundos mútuos. Aprender a investir de maneira informada pode ajudar a construir riqueza ao longo do tempo e garantir uma segurança financeira futura.</p>
+                <div class="conteudo-eda">
+                    <h1 class="ajuste2">Investimento e Crescimento Financeiro:</h1>
+                    <p class="texto2 ajuste1"> A educação financeira também abrange o conhecimento sobre investimentos, desde os básicos, como poupança, até opções mais avançadas, como ações, títulos e fundos mútuos. Aprender a investir de maneira informada pode ajudar a construir riqueza ao longo do tempo e garantir uma segurança financeira futura.</p>
                    
                 </div>          
         </div>
