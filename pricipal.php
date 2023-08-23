@@ -1,6 +1,12 @@
 <?php
+    
     session_start();
     $nome=$_SESSION['nome'];
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -13,14 +19,16 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     <link rel="stylesheet" href="css/carrousel.css">
+    <script src="javinha/cotaçao.js" ></script>
+    <script src="javinha/tradecolor.js"></script>
     <title>Principal</title>
 </head>
 <body>
 
-    <header>
+ <header>
 
         <nav>
-        <a href="pricipal.php"><img class="imagem00" src=""></a>
+        <a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
 
             <div class="cabeçalho">
 
@@ -107,13 +115,13 @@
     <nav class="gg">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
-                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
+                <a class="ajuste11" style="font-size: 25px;" href="calculadora.php">Calculadora </a>
 
-        <?php
+                <?php
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px; ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -123,13 +131,15 @@
         }
         ?>
             
+               
+            
                 </div>
             </div>
         </nav>
     
 
     <main>
-        <div class="container">
+        
             <div class="principal">
                 <div class="cont-principal">
                     <div class="digitasolo">
@@ -143,30 +153,20 @@
                          administração financeira pessoal e empresarial.
                     </div>
                 </div>
-                         <img src="img/moneybagretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
+                         <img src="img/moneybagretro.bmp"  width="900px" height="900px" alt="imagem de um cara contando">
 
             </div>
-
-
-
-
-
-        </div>
-
-
-
-
-
+        
     </main>
 
 
 
-    <div class="contaner-aux">
+   <div class="contaner-aux">
         <div class="princ">
             
-                <div class="conteudo">
+                <div class="conteudo" style="background-color: rgb(236, 198, 92);">
 
-                    <h1 class="ajuste">Finanças</h1>
+                    <h1 class="centralalig2">O que é Finanças?</h1>
                     <p class="texto ajuste1">As finanças são a gestão do dinheiro, principalmente em relação a empresas, organizações ou governos. Elas lidam com as questões de 
                         como um indivíduo, empresa ou governo adquire o dinheiro necessário - chamado capital no contexto da empresa - e como eles gastam ou 
                         investem esse dinheiro.</p>
@@ -174,15 +174,16 @@
                     </div>
 
             
-                <div class="conteudo">
-                    <h1 class="ajuste">Economia</h1>
-                    <p class="texto ajuste1">A economia é uma ciência que estuda o comportamento humano como uma relação entre fins e meios escassos que têm usos alternativos.</p>
+                <div class="conteudo" style="background-color: rgb(236, 198, 92);">
+                    <h1 class="centralalig2">O que é Economia?</h1>
+                    <p class="texto ajuste1">A economia é a ciência que estuda como a sociedade administra seus recursos limitados para atender às infinitas necessidades humanas. Ela explora as escolhas de indivíduos, empresas e governos em relação à produção, distribuição e consumo de bens e serviços, impactando o crescimento, estabilidade e bem-estar das sociedades.</p>
                     <button class="button-54 btn1" role="button"> <a href="https://pt.wikipedia.org/wiki/Economia" target="_blank">wikipedia</a></button>
                 </div>
         </div>
     </div>
 
-    <footer >
+
+  <footer >
     <div class="footer1">
             <div class="okk">
             <a href="educacao.php" >APRENDA</a>

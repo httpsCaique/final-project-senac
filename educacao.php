@@ -13,6 +13,7 @@
     <script src="./javinha/tdd.js"></script>
     <script src="javinha/empres.js"></script>
     <script src="javinha/index1.js"></script>
+    <script src="javinha/cotaçao.js"></script>
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/nome.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -26,9 +27,8 @@
 
 <header>
 
-<nav>
-            <a href="principal.HTM"><img class="imagem00" src=""></a>
-
+<nav style="background-color: #2A47AD; color: #fff;">
+<a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
             <div class="cabeçalho">
 
                <a href="salario.php">SALARIO</a>
@@ -104,7 +104,8 @@
      </div>
     </div>
 
-    <nav class="gg">
+
+    <nav class="gg" style="background-color: #2A47AD;">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
                 <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
@@ -113,7 +114,7 @@
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px; ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -126,20 +127,26 @@
                 </div>
             </div>
         </nav>
-  <div class="contaneral">
-    <div>
-    <div class="conteudo-top">
-    <h1 class="ajuste3">Educação Financeira</h1>
-    <p class="texto2 ajuste1">Educação financeira é um processo de adquirir conhecimentos, habilidades e atitudes necessárias para tomar decisões financeiras inteligentes. Através da educação financeira, as pessoas aprendem a gerenciar eficazmente seus recursos financeiros, a tomar decisões conscientes sobre gastos e investimentos, a evitar dívidas prejudiciais e a construir um futuro financeiro seguro.</p>
+
+
+    <div class="conteudo-edu">
+    <h1 class="centralalig">Educação Financeira</h1>
+    <p class="texto2 ajuste1">Educação financeira é um processo de adquirir conhecimentos, 
+        habilidades e atitudes necessárias para tomar decisões financeiras inteligentes. 
+        Através da educação financeira, as pessoas aprendem a gerenciar eficazmente seus 
+        recursos financeiros, a tomar decisões conscientes sobre gastos e investimentos, 
+        a evitar dívidas prejudiciais e a construir um futuro financeiro 
+        seguro.</p>
+        </div>
     </div>
-    </div>
+
  
-  </div>
+
    
 
 
 
-    <div class="contaneral">
+
         <div class="princ">
             
                 <div class="conteudo-eda">
@@ -155,9 +162,9 @@
                    
                 </div>          
         </div>
-    </div>
 
-    <div class="contaneral">
+
+
         <div class="princ">
             
                 <div class="conteudo-eda">
@@ -173,15 +180,15 @@
                    
                 </div>          
         </div>
-    </div>
+
 
     <div class="content">
     </div>
-    <a href="#" class="to-top" onclick="scrollToTop(); return false;">Voltar</a>
+    <a href="#" class="to-top" onclick="scrollToTop(); return false;" style="background-color: #2A47AD;">Voltar</a>
     <script src="script.js"></script>
  
-    <footer>
-    <div class="footer1">
+    <footer style="background-color: #2A47AD;">
+    <div class="footer1" >
             <div class="okk">
             <a href="educacao.php" >APRENDA</a>
             <a href="personagens.php">PERSONAGENS</a>
@@ -194,7 +201,7 @@
                 <img src="./img/ints2.png" alt="Instagram">
             </a>
             </div>
-          <div class="okk" style="margin-left: -25px;  ">
+          <div class="okk" style="margin-left: -25px; background-color: #2A47AD; ">
             <p>httpscaique</p>
             <p>YGuilhermo13</p>
           </div>

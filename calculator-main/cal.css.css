@@ -1,0 +1,55 @@
+body {
+	background: #f4ffb4;
+	font-family: minha;
+	background-image: url(uma-ilustracao-colorida-de-um-planeta-com-nuvens-e-estrelas.jpg);
+}
+.wrapper {
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #f8a2a2;
+	padding: 50px;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 30px;
+}
+
+input[type="text"] {
+	height: 40px;
+
+}
+input[type="text"] {
+	font-size: 24px;
+}
+button {
+	background: #ff0000;
+	border: none;
+	color: #ffffff;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: minha;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 30px;
+}
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+}
+b {
+	font-size: 30px;
+}
+
+@font-face {
+	font-family: minha;
+	src: url(HiMoms.ttf);
+}
+
+h2{
+	font-family: minha;
+	font-size: 50px;
+}
+

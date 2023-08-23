@@ -26,6 +26,16 @@
 	border: 2px solid #bbbbbb;
 }
 
+
+@keyframes slide1{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(-100);
+	}
+}
+
 @-webkit-keyframes scroll {
 	0% {
 		transform: translateX(0);

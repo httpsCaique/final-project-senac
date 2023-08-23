@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+    <script src="javinha/cotaçao.js"></script>
     <link rel="stylesheet" href="css/nome.css">
     <link rel="stylesheet" href="css/ling.css">
     <link rel="stylesheet" href="css/carrousel.css">
@@ -29,9 +30,8 @@
 
 <header>
 
-<nav>
-<a href="pricipal.php"><img class="imagem00" src=""></a>
-
+<nav style="background-color: #5932AD;">
+<a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
     <div class="cabeçalho">
 
 
@@ -108,16 +108,15 @@
      </div>
     </div>
 
-    <nav class="gg">
+    <nav class="gg" style="background-color: #5932AD;">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
-                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
-
-        <?php
+                <a class="ajuste11" style="font-size: 25px;" href="calculadora.php">Calculadora </a>
+                <?php
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px;  ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -127,19 +126,21 @@
         }
         ?>
             
+              
+            
                 </div>
             </div>
         </nav>
 
-<div style="text-align: center;">
-    <a ><img src="https://readme-typing-svg.demolab.com?font=Shrikhand&size=50&pause=1000&color=F7BA3D&width=1000&height=150&lines=Bem+Vindo+a+%C3%81rea+de+Personagens" alt="Typing SVG" /></a>
+<div style="text-align: center; justify-self: center;">
+    <a ><img src="https://readme-typing-svg.demolab.com?font=Shrikhand&size=50&pause=1000&color=5932AD&width=1000&height=150&lines=Bem+Vindo+a+%C3%81rea+de+Personagens" alt="Typing SVG" /></a>
 </div>
    
 
    
      
-    <div style="display: flex;">
-<div class="card">
+    <div style="display: flex;" >
+<div class="card" ">
                 <img src="img/moneybagretro.png" alt="Money bagreto">
                 <h2>Saquitel</h2>
                 <p>Um saco de dinheiro bem sapeca.</p>
@@ -181,7 +182,7 @@
              
 
 
-        <footer>
+        <footer style="background-color: #5932AD;">
         <div class="footer1">
             <div class="okk">
             <a href="educacao.php" >APRENDA</a>

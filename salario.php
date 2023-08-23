@@ -17,6 +17,7 @@
     <script src="javinha/index1.js"></script>
     <script src="javinha/inpute.js"></script>
     <script src="javinha/empres.js"></script>
+    <script src="javinha/cotaçao.js"></script>
     <link rel="stylesheet" href="css/nome.css">
     <link rel="icon" href="./img/dollar.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -32,7 +33,7 @@
 <header>
 
 <nav>
-            <a href="pricipal.php"><img class="imagem00" src=""></a>
+<a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
 
             <div class="cabeçalho">
                <a href="salario.php">SALARIO</a>
@@ -113,13 +114,13 @@
     <nav class="gg">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
-                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
+                <a class="ajuste11" style="font-size: 25px;" href="calculadora.php">Calculadora </a>
 
         <?php
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px; ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -151,7 +152,7 @@
                             Veja como funciona na prática:
                         </div>
                     </div>
-                             <img src="img/moedaretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
+                             <img src="img/moedaretro.bmp"  width="900px" height="900px"  alt="imagem de um cara contando">
     
                 </div>
             </div>
@@ -181,7 +182,7 @@
                 </article>
 
         </main>
-        <div class="graficostilo">
+        <div class="king">
         <canvas id="grafico"></canvas>
     </div>
 

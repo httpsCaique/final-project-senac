@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javinha/index1.js"></script>
     <script src="javinha/empres.js"></script>
+    <script src="javinha/cotaçao.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -29,8 +30,7 @@
 <header>
 
 <nav>
-<a href="pricipal.php"><img class="imagem00" src=""></a>
-
+<a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
             <div class="cabeçalho">
 
 
@@ -114,13 +114,13 @@
     <nav class="gg">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
-                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
+                <a class="ajuste11" style="font-size: 25px;" href="calculadora.php">Calculadora </a>
 
         <?php
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px; ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -150,7 +150,7 @@
                              administração financeira pessoal e empresarial.
                         </div>
                     </div>
-                             <img src="img/moneybagretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
+                             <img src="img/moneybagretro.bmp" width="900px" height="900px"  alt="imagem de um cara contando">
     
                 </div>
     

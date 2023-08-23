@@ -1,17 +1,15 @@
+
 <?php
-
-
-
-session_start();
-$nome=$_SESSION['nome'];
-
-
+    
+    session_start();
+    $nome=$_SESSION['nome'];
 
 
 
 
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +17,7 @@ $nome=$_SESSION['nome'];
     <script src="javinha/index1.js"></script>
     <script src="javinha/investimento2.js"></script>
     <script src="javinha/empres.js"></script>
+    <script src="javinha/cotaçao.js"></script>
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/ling.css">
@@ -34,8 +33,7 @@ $nome=$_SESSION['nome'];
     <header>
 
         <nav>
-        <a href="pricipal.php"><img class="imagem00" src=""></a>
-
+        <a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
             <div class="cabeçalho">
 
 
@@ -119,13 +117,13 @@ $nome=$_SESSION['nome'];
     <nav class="gg">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
-                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
+                <a class="ajuste11" style="font-size: 25px;" href="calculadora.php">Calculadora </a>
 
         <?php
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:1200px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px; ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -142,6 +140,7 @@ $nome=$_SESSION['nome'];
 
 
 
+
     <main>
         <div class="container">
             <div class="principal">
@@ -149,15 +148,18 @@ $nome=$_SESSION['nome'];
                     <div class="digitasolo">
                         <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Shrikhand&size=50&duration=3000&pause=1000&color=ECC65C&center=true&multiline=true&width=435&height=180&lines=+++++++++++++++++++++++Bem+Vindo;++++++++++++++++++++++++A+%C3%A1rea;++++++++++++++++++++++Investimento" alt="Typing SVG" /></a>
                     </div>
-                    <div class="txt">"Finanças Total" que oferece recursos para dividir o salário, organizar finanças 
-                        empresariais e acompanhar cotação de investimentos. Ele permite aos usuários 
-                        criar categorias para distribuir o salário, gerenciar contas empresariais e
-                         monitorar investimentos em tempo real. Além disso, o site garante segurança dos 
-                         dados, possui uma interface amigável e é uma ferramenta completa para auxiliar na 
-                         administração financeira pessoal e empresarial.
+                    <div class="txt">Investir no Tesouro Direto em vez da poupança é uma escolha mais vantajosa por 
+                        diversas razões. Os investimentos no Tesouro Direto geralmente oferecem rentabilidade 
+                        superior à poupança, especialmente em períodos de juros baixos. Além disso, a variedade 
+                        de opções de títulos permite escolher o mais adequado aos objetivos financeiros. 
+                        A segurança é similar, mas a liquidez é maior nos títulos públicos, e investir no 
+                        Tesouro Direto também ajuda na diversificação da carteira. Com acesso online fácil e 
+                        custos relativamente baixos, essa opção é acessível a diversos perfis de investidores. 
+                        Contudo, é crucial considerar metas, prazos e riscos ao tomar decisões de investimento, 
+                        podendo buscar orientação profissional para escolhas mais embasadas.
                     </div>
                 </div>
-                         <img src="img/moneybagretro.bmp"  width="1000px" height="1000px" alt="imagem de um cara contando">
+                         <img src="img/moneybagretro.bmp"  width="900px" height="900px"  alt="imagem de um cara contando">
             </div>
         </div>
 
