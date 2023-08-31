@@ -41,7 +41,7 @@ body{
     right: -20px;
     font-size: 30px;
     padding: -10px -10px;
-    background-color:rgb(236, 198, 92);
+    background-color:#46B363;
     color: #000000;
     border: 5px rgb(0, 0, 0) solid;
     text-decoration: none;
@@ -61,12 +61,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 8rem;
-    background-color:rgb(236, 198, 92);
+    background-color:#DEBA57;
     font-size: 2rem;
     border-bottom: 5px black solid;
-    border-top: 5px black solid;
-
-   
+    border-top: 5px rgb(0, 0, 0) solid;
   }
   
 
@@ -119,33 +117,7 @@ span{
 
 /*carrousel*/
 
-.carousel {
-  overflow: hidden;
-  border-bottom: 5px black solid;
-}
 
-.slides {
-  display: flex;
-  transition: transform 0.3s ease;
-  
- 
-}
-
-.slides img {
-  height: 50px;
-  width: 100px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin-left: 30px ;
-  margin-right: 2rem;
- 
-}
-
-.u-text-placeholder{
-  font-size: 15px;
-  margin-left: 20px;
-
-}
 
 
 
@@ -334,14 +306,15 @@ font-size: 50px;
 .texto2{
   font-family: principal;
   font-size: 23px;
-  color: #ffffff;
+  color: #000000;
 
 }
 .centralalig{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  color: #000000;
+  word-spacing: 30%;
 }
 .centralalig2{
   display: flex;
@@ -437,12 +410,26 @@ margin-left: 20%;
 .king{
   width: 50rem;
   height: 50rem;
-  margin-left: 14rem;
+  margin-left: 20rem;
+  margin-bottom: 1rem;
+}
+.king-size{
+  width: 50rem;
+  height: 50rem;
+  margin-left: 20rem;
+  margin-bottom: 1rem;
+}
+
+.king-principal{
+  width: 50rem;
+  height: 20rem;
+  margin-left: 25rem;
   margin-bottom: 1rem;
 }
 
 .princ3{
   font-size: 3rem;
+  
 }
 
 #salario{
@@ -455,7 +442,7 @@ margin-left: 20%;
   width: 600px;
   height: 60px;
   background-color: rgb(214, 214, 214);
-margin-left:200px ;
+  margin-left:150px ;
 }
 
 .graficostilo{

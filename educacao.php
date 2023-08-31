@@ -27,7 +27,7 @@
 
 <header>
 
-<nav style="background-color: #2A47AD; color: #fff;">
+<nav style="background-color: #5932AD; color: #fff;">
 <a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
             <div class="cabeçalho">
 
@@ -38,83 +38,101 @@
             </div>
         </nav>
 </header>
+<script src="javinha/index1.js"></script>
+<div class="logos">
+      <div class="logos-slide">
 
-<div class="carousel">
-     <div class="slider">
-      <div class="slide-track">
-        <div class="slides">
+
+
+ <img  src="img/Flag_of_Canada_(Pantone).svg.png" alt="bandeira canada">
+        <b class="cont-ajuste">
+            <span class="u-text-placeholder currency_cad" ">1 CAD = 3.58 BRL</span>
+        </b>
+
+
+            <img  src="img/Flag_of_the_United_States.svg.png"   alt="bandeira estados unidos">
+            <b class="cont-ajuste">
+                <span class="u-text-placeholder currency_usd" ">1 USD = 4.73 BRL</span>
+            </b>
+
+
+
+               
+            <img  src="img/Flag_of_Russia.svg.png"   alt="bandeira da russia">
+             <b class="cont-ajuste">
+            <span class="u-text-placeholder currency_rub">1 RUB = 0.05 BRL</span>
+        </b>
+
+
+
+            
+
+         
+            <img  src="img/Flag_of_Japan.svg.png"  alt="bandeira do japao">
+            <b class="cont-ajuste">
+            <span class="u-text-placeholder currency_jpy" >1 JPY = 0.03 BRL</span>
+        </b>
             
 
 
-        <div class="canada slide">
-          <img  src="img/Flag_of_Canada_(Pantone).svg.png" alt="bandeira canada">
-          
-            <span class="u-text-placeholder currency_cad" >1 CAD = 3.58 BRL</span>
-        </div>
-
-        <div class="usd slide">
-            <img  src="img/Flag_of_the_United_States.svg.png"   alt="bandeira estados unidos">
-                <span class="u-text-placeholder currency_usd" >1 USD = 4.73 BRL</span>
-        </div>
-
-        <div class="russia slide">
-            <img  src="img/Flag_of_Russia.svg.png"   alt="bandeira da russia">
-            <span class="u-text-placeholder currency_rub">1 RUB = 0.05 BRL</span>
-        </div>
-
-        <div class="japao slide">
-            <img  src="img/Flag_of_Japan.svg.png"  alt="bandeira do japao">
-            <span class="u-text-placeholder currency_jpy" >1 JPY = 0.03 BRL</span>
-        </div>
-
-        <div class="china slide">
             <img  src="img/Flag_of_the_People's_Republic_of_China.svg.png"  alt="bandeira da china">
+            <b class="cont-ajuste">
             <span class="u-text-placeholder currency_cny" >1 CNY = 0.66 BRL</span>
-        </div>
+        </b>
+           
 
-        
-        <div class="reino-unido slide">
-            <img  src="img/Flag_of_the_United_Kingdom_(3-5).svg.png"  alt="bandeira reino unido">
+
+            <img  src="img/Flag_of_the_United_Kingdom_(3-5).svg.png"  alt="bandeira reino unido"> 
+            <b class="cont-ajuste">
             <span class="u-text-placeholder currency_gbp" >1 GBP = 6.07 BRL</span>
-        </div>
+        </b>
 
-        <div class="india slide">
+
             <img  src="img/Flag_of_India.svg.png"  alt="bandeira india">
+            <b class="cont-ajuste">
             <span class="u-text-placeholder currency_inr" >1 INR = 0.06 BRL</span>
-        </div>
+            </b>
 
-        <div class="uniao slide">
+
             <img  src="img/Flag_of_Europe.svg.png"  alt="bandeira runiao europeia">
+            <b class="cont-ajuste">
             <span class="u-text-placeholder currency_eur" >1 EUR = 5.24 BRL</span>
-        </div>
-
-        <div class="hk slide">
-            <img  src="img/Flag_of_Hong_Kong.svg.png"  alt="bandeira Hong Kong">
+            </b>
+       
+            <img  src="img/Flag_of_Hong_Kong.svg.png"  alt="bandeira Hong Kong"> 
+            <b class="cont-ajuste">
             <span class="u-text-placeholder currency_hkd" >1 HKD = 0.61 BRL</span>
-        </div>
-
-        <div class="hk slide">
+            </b>
+       
             <img  src="img/Flag_of_the_United_Arab_Emirates.svg.png"  alt="bandeira emira dos arabes">
+             <b class="cont-ajuste">
             <span class="u-text-placeholder currency_aed" >1 AED = 1.29 BRL</span>
-        </div>
+            </b>
 
 
-        </div>
+
+
+
       </div>
-     </div>
     </div>
 
+    <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
 
-    <nav class="gg" style="background-color: #2A47AD;">
+
+
+
+       <nav class="gg" style="background-color: #5932AD;">
             <div class="cabeçalho">
                 <div class="container-calculator" style="display: flex; align-items: center;">
-                <a class="ajuste11" style="font-size: 20px;" href="calculadora.php">Calculadora </a>
-
-        <?php
+                <a class="ajuste11" style="font-size: 25px;" href="calculadora.php">Calculadora </a>
+                <?php
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:900px; ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px;  ">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -124,13 +142,16 @@
         }
         ?>
             
+              
+            
                 </div>
             </div>
         </nav>
 
 
+
     <div class="conteudo-edu">
-    <h1 class="centralalig">Educação Financeira</h1>
+    <h1 class="centralalig" style="color: #fff;">Educação Financeira</h1>
     <p class="texto2 ajuste1">Educação financeira é um processo de adquirir conhecimentos, 
         habilidades e atitudes necessárias para tomar decisões financeiras inteligentes. 
         Através da educação financeira, as pessoas aprendem a gerenciar eficazmente seus 
@@ -139,12 +160,6 @@
         seguro.</p>
         </div>
     </div>
-
- 
-
-   
-
-
 
 
         <div class="princ">
@@ -187,7 +202,7 @@
     <a href="#" class="to-top" onclick="scrollToTop(); return false;" style="background-color: #2A47AD;">Voltar</a>
     <script src="script.js"></script>
  
-    <footer style="background-color: #2A47AD;">
+    <footer style="background-color: #5932AD;">
     <div class="footer1" >
             <div class="okk">
             <a href="educacao.php" >APRENDA</a>
@@ -201,7 +216,7 @@
                 <img src="./img/ints2.png" alt="Instagram">
             </a>
             </div>
-          <div class="okk" style="margin-left: -25px; background-color: #2A47AD; ">
+          <div class="okk" style="margin-left: -25px; ">
             <p>httpscaique</p>
             <p>YGuilhermo13</p>
           </div>

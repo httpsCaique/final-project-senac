@@ -1,4 +1,4 @@
-const carousel = document.querySelector('.carousel');
+/*const carousel = document.querySelector('.carousel');
 const slides = document.querySelector('.slides');
 const slideImages = document.querySelectorAll('.slides img');
 
@@ -22,7 +22,7 @@ function nextSlide() {
 setInterval(nextSlide, 2000); // Intervalo de 2 segundos (2000ms) entre os slides
 
 // Mostrar o primeiro slide no início
-showSlide(slideIndex);
+showSlide(slideIndex);*/
 
 
 

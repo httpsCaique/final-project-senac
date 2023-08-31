@@ -33,12 +33,13 @@
 
 <header>
 
-<nav style="background-color: rgb(153, 153, 153);">
+<nav style="background-color:#999999;">
 <a href="pricipal.php"><img class="imagem00" src="img/dollar.png"></a>
             <div class="cabeçalho">
                <a href="salario.php">SALARIO</a>
                 <a href="empresa.php">EMPRESA</a>                
                 <a href="investimento.php">INVESTIMENTOS</a>
+               
             </div>
 </nav>
 </header>
@@ -53,16 +54,25 @@
             <span class="u-text-placeholder currency_cad" >1 CAD = 3.58 BRL</span>
         </b>
 
+
             <img  src="img/Flag_of_the_United_States.svg.png"   alt="bandeira estados unidos">
             <b class="cont-ajuste">
                 <span class="u-text-placeholder currency_usd" >1 USD = 4.73 BRL</span>
             </b>
 
+
+
+               
             <img  src="img/Flag_of_Russia.svg.png"   alt="bandeira da russia">
              <b class="cont-ajuste">
             <span class="u-text-placeholder currency_rub">1 RUB = 0.05 BRL</span>
         </b>
 
+
+
+            
+
+         
             <img  src="img/Flag_of_Japan.svg.png"  alt="bandeira do japao">
             <b class="cont-ajuste">
             <span class="u-text-placeholder currency_jpy" >1 JPY = 0.03 BRL</span>
@@ -125,7 +135,7 @@
         if($nome != null)
         {
             ?>
-            <p class="ajuste11" style="font-size: 25px; margin-left:900px;  ">Olá <?=strtoupper($nome)?></p>
+            <p class="ajuste11" style="font-size: 25px; margin-left:900px;">Olá <?=strtoupper($nome)?></p>
             <?php
         }
         else
@@ -142,17 +152,17 @@
         </nav>
 
 
-        <main >
+        <main>
 
             <div class="container">
                 <div class="principal">
                     <div class="cont-principal">
                         <div class="digitasolo">
-                            <a href="https://git.io/typing-svg" ><img src="https://readme-typing-svg.demolab.com?font=Shrikhand&size=50&duration=3000&pause=1000&color=ECC65C&center=true&multiline=true&width=435&height=180&lines=+++++++++++++++++++++++Bem+Vindo;+++++++++++++++++++++++++A+%C3%A1rea;++++++++++++++++++++++++Calculadora" alt="Typing SVG" /></a>
+                            <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Shrikhand&size=50&duration=3000&pause=1000&color=999999&center=true&multiline=true&width=435&height=180&lines=+++++++++++++++++++++++Bem+Vindo;+++++++++++++++++++++++++A+%C3%A1rea;++++++++++++++++++++++++Calculadora" alt="Typing SVG" /></a>
                         </div>
 
                        
-                        <div class="txt" style="background-color: rgb(153, 153, 153);"><p>Método 50-30-20</p>método de divisão de salário é o 50-30-20 que, como o próprio nome diz, divide a sua renda líquida mensal em três partes: 50%, 30% e 20%.
+                        <div class="txt" style="background-color:#999999;"><p>Método 50-30-20</p>método de divisão de salário é o 50-30-20 que, como o próprio nome diz, divide a sua renda líquida mensal em três partes: 50%, 30% e 20%.
                             Foi desenvolvido pela professora de direito e atual senadora norte-americana Elizabeth Warren com sua filha, Amelia Warren Tyagi. Ele consiste, basicamente, em dividir sua renda líquida mensal em três partes, tendo como principal pano de fundo o controle financeiro ou o equilíbrio do orçamento.
                              
                             
@@ -164,7 +174,7 @@
                 </div>
             </div>
 
-                <article class="articlee2" style="background-color: rgb(153, 153, 153);">
+                <article class="articlee2" style="background-color:#999999;">
                 <div class="wrapper">
 		<p class="titlebasic">Calculadora</p><input id="num-one" name="num-one" type="text"> <input id="num-two" name="num-two" type="text"><br>
 		<br>
@@ -256,7 +266,7 @@ document.getElementById("resultArea").innerHTML = "Resultado "+ total
 }
 
         </script>
-<footer style="background-color: rgb(153, 153, 153);">
+<footer style="background-color:#999999;">
 
 <div class="footer1" >
             <div class="okk">

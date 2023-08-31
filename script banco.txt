@@ -1,0 +1,14 @@
+CREATE DATABASE mestredasmoedas;
+use mestredasmoedas;
+
+
+CREATE TABLE usuario (
+  id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  cpf varchar(11)NOT NULL,
+  nome varchar(100) NOT NULL,
+  senha varchar(50) NOT NULL
+);
+
+
+INSERT INTO usuario (cpf, nome,senha) VALUES
+('99342232', 'gui', '1234');

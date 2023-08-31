@@ -116,28 +116,8 @@ div, .cabeçalho, a{
   border-bottom: 5px black solid;
 }
 
-.slides {
-  display: flex;
-  transition: transform 0.3s ease;
-  
- 
-}
 
-.slides img {
-  height: 50px;
-  width: 100px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin-left: 30px ;
-  margin-right: 2rem;
- 
-}
 
-.u-text-placeholder{
-  font-size: 15px;
-  margin-left: 20px;
-
-}
 
 
 
